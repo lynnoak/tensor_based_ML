@@ -1,0 +1,6292 @@
+% Data on the administrative elite in The Netherlands, April 2006.
+% The memberships of the Top 200 administrators.
+% Data collected and analysed by De Volkskrant and Wouter de Nooy.
+% Publication:
+% W. Dekker & B. van Raaij, De elite. De Volkskrant Top 200 van
+% invloedrijkste Nederlanders. Amsterdam: Meuelenhoff, 2006.
+% For a description and justification, see:
+% W. de Nooy, 'Ringen om de macht', published in the aforementioned
+% book, pp. 85-94.
+% -----------------------------------------------------------------
+*Network Top200 network
+*Vertices     595     200
+  1 "herkströter, c.a.j. (cor)"              0.1000    0.5000    0.5000
+  2 "heijden, p.f. (paul) van der"           0.1000    0.4958    0.5000
+  3 "jacobs, a.g. (aad)"                     0.1001    0.4916    0.5000
+  4 "kok, w. (wim)"                          0.1002    0.4873    0.5000
+  5 "lugt, g.j.a. (godfried) van der"        0.1004    0.4831    0.5000
+  6 "vuursteen, k. (karel)"                  0.1006    0.4789    0.5000
+  7 "bahlmann, j.p. (tineke)"                0.1008    0.4747    0.5000
+  8 "bergh, m.a. (maarten) van den"          0.1011    0.4705    0.5000
+  9 "boll, j.m. (jan maarten)"               0.1014    0.4662    0.5000
+ 10 "borstlap, h. (hans)"                    0.1018    0.4620    0.5000
+ 11 "broek, h. (hans) van den"               0.1022    0.4578    0.5000
+ 12 "burgmans, a. (antony)"                  0.1027    0.4536    0.5000
+ 13 "collee, c.h.a. (dolf)"                  0.1032    0.4494    0.5000
+ 14 "ancona, h. (hedy)"                      0.1038    0.4453    0.5000
+ 15 "gonçalves-ho kang you, l.y. (lilian)"   0.1044    0.4411    0.5000
+ 16 "groenman, l.s. (louise)"                0.1050    0.4369    0.5000
+ 17 "halberstadt, v. (victor)"               0.1057    0.4327    0.5000
+ 18 "hazewinkel, h.j. (herman)"              0.1064    0.4286    0.5000
+ 19 "hessels, j.m. (jan michiel)"            0.1072    0.4244    0.5000
+ 20 "hommen, j.h.m. (jan)"                   0.1080    0.4203    0.5000
+ 21 "hovers, j.c.m. (jan)"                   0.1089    0.4161    0.5000
+ 22 "kalff, p.j. (jan)"                      0.1098    0.4120    0.5000
+ 23 "kleisterlee, g.j. (gerard)"             0.1107    0.4079    0.5000
+ 24 "kuiper, j.ch.l. (joost)"                0.1117    0.4038    0.5000
+ 25 "leenaars, c.p.a.j. (eli)"               0.1128    0.3997    0.5000
+ 26 "lier lels, m.e. (marike) van"           0.1139    0.3956    0.5000
+ 27 "loudon, a.a. (aarnout)"                 0.1150    0.3916    0.5000
+ 28 "maas, c. (cees)"                        0.1161    0.3875    0.5000
+ 29 "maas-de brouwer, t.a. (trude)"          0.1174    0.3834    0.5000
+ 30 "maljers, f.a. (floris)"                 0.1186    0.3794    0.5000
+ 31 "meijer, w. (wim)"                       0.1199    0.3754    0.5000
+ 32 "meurs, p.l. (pauline)"                  0.1212    0.3714    0.5000
+ 33 "olijslager, a.a. (andré)"               0.1226    0.3674    0.5000
+ 34 "rinnooy kan, a.h.g. (alexander)"        0.1240    0.3634    0.5000
+ 35 "rooy, y.c.m.t. (yvonne) van"            0.1255    0.3595    0.5000
+ 36 "sanders, m. (martijn)"                  0.1270    0.3555    0.5000
+ 37 "scheepbouwer, a.j. (ad)"                0.1286    0.3516    0.5000
+ 38 "schnabel, p. (paul)"                    0.1301    0.3477    0.5000
+ 39 "staal, b. (boele)"                      0.1318    0.3438    0.5000
+ 40 "swaan, t. (tom) de"                     0.1334    0.3399    0.5000
+ 41 "veen, m.c. (maarten) van"               0.1352    0.3360    0.5000
+ 42 "veer, j. (jeroen) van der"              0.1369    0.3322    0.5000
+ 43 "wijffels, h.h.f. (herman)"              0.1387    0.3284    0.5000
+ 44 "zijl, j.p.c.m. (jan) van"               0.1405    0.3245    0.5000
+ 45 "groenink, r.w.j. (rijkman)"             0.1424    0.3208    0.5000
+ 46 "dahan, r. (rené)"                       0.1443    0.3170    0.5000
+ 47 "storm, k.j. (kees)"                     0.1463    0.3132    0.5000
+ 48 "stevens, w.f.c. (willem)"               0.1483    0.3095    0.5000
+ 49 "wijk, l.m. (leo) van"                   0.1503    0.3058    0.5000
+ 50 "streppel, j.b.m. (jos)"                 0.1524    0.3021    0.5000
+ 51 "werf, j.g. (johan) van der"             0.1545    0.2985    0.5000
+ 52 "brink, r.g.c. (dolf) van den"           0.1566    0.2948    0.5000
+ 53 "lede, c.j.a. (kees) van"                0.1588    0.2912    0.5000
+ 54 "wijers, g.j. (hans)"                    0.1610    0.2876    0.5000
+ 55 "bodt, h. (henk)"                        0.1633    0.2841    0.5000
+ 56 "dekker, j.a. (jan)"                     0.1656    0.2805    0.5000
+ 57 "hoek, p.c. (paul) van den"              0.1679    0.2770    0.5000
+ 58 "zwartendijk, r. (rob)"                  0.1703    0.2735    0.5000
+ 59 "kist, e. (ewald)"                       0.1727    0.2700    0.5000
+ 60 "woudenberg, c. (cees) van"              0.1752    0.2666    0.5000
+ 61 "elverding, p.a.f.w. (peter)"            0.1776    0.2632    0.5000
+ 62 "zuidam, j. (jan)"                       0.1802    0.2598    0.5000
+ 63 "minderhoud, m. (marinus)"               0.1827    0.2564    0.5000
+ 64 "ruys, a. (thony)"                       0.1853    0.2531    0.5000
+ 65 "bolland, m.j. (marc)"                   0.1879    0.2498    0.5000
+ 66 "jong, j.m. (jan maarten) de"            0.1906    0.2465    0.5000
+ 67 "risseeuw, a.h.j. (ton)"                 0.1933    0.2432    0.5000
+ 68 "bennink, j. (jan)"                      0.1960    0.2400    0.5000
+ 69 "tabaksblat, m. (morris)"                0.1988    0.2368    0.5000
+ 70 "bakker, m.p. (peter)"                   0.2016    0.2337    0.5000
+ 71 "abrahamsen, r.j.n. (rob)"               0.2044    0.2305    0.5000
+ 72 "pennings, j.v.h. (harry)"               0.2073    0.2274    0.5000
+ 73 "baan, a. (adri)"                        0.2102    0.2243    0.5000
+ 74 "brentjens, j.l. (joep)"                 0.2131    0.2213    0.5000
+ 75 "oordt, r.f.w. (rob) van"                0.2160    0.2183    0.5000
+ 76 "duijne, j.f. (fokko) van"               0.2190    0.2153    0.5000
+ 77 "schreve, f.h. (frank)"                  0.2221    0.2123    0.5000
+ 78 "schraven, j.h. (jacques)"               0.2251    0.2094    0.5000
+ 79 "bouw, p. (pieter)"                      0.2282    0.2065    0.5000
+ 80 "vermeend, w.a.f.g. (willem)"            0.2313    0.2037    0.5000
+ 81 "aalberts, j. (jan)"                     0.2344    0.2009    0.5000
+ 82 "jaakke, j.c. (john)"                    0.2376    0.1981    0.5000
+ 83 "tets, r.w.f. (rijnhard) van"            0.2408    0.1953    0.5000
+ 84 "dekker, m.w. (maarten)"                 0.2441    0.1926    0.5000
+ 85 "lodder, t.m. (truze)"                   0.2473    0.1899    0.5000
+ 86 "heemskerk, h. (bert)"                   0.2506    0.1873    0.5000
+ 87 "slingelandt, d.j.m.g. (rik) van"        0.2539    0.1847    0.5000
+ 88 "schijndel, p.j.a. (piet) van"           0.2573    0.1821    0.5000
+ 89 "moerland, p.w. (piet)"                  0.2606    0.1795    0.5000
+ 90 "koopmans, l. (lense)"                   0.2640    0.1770    0.5000
+ 91 "berndsen, l.j.m. (leo)"                 0.2675    0.1745    0.5000
+ 92 "eisma, s.e. (sjoerd)"                   0.2709    0.1721    0.5000
+ 93 "overmars, p.f.m. (paul)"                0.2744    0.1697    0.5000
+ 94 "veenman, a.w. (aad)"                    0.2779    0.1673    0.5000
+ 95 "wellink, a.h.e.m. (nout)"               0.2814    0.1650    0.5000
+ 96 "brouwer, h.j. (henk)"                   0.2850    0.1627    0.5000
+ 97 "swaab, e.h. (els)"                      0.2885    0.1605    0.5000
+ 98 "bolkestein, f. (frits)"                 0.2921    0.1583    0.5000
+ 99 "delden, a.h. (bert) van"                0.2957    0.1561    0.5000
+100 "jonkhart, m.j.l. (marius)"              0.2994    0.1539    0.5000
+101 "oranje-nassau van amsberg (prins der nederlanden), prins willem-alexander"    0.3031    0.1518    0.5000
+102 "graaf, t. (ton) van de"                 0.3067    0.1498    0.5000
+103 "siderius-fentener van vlissingen, a.m. (annemiek)"    0.3105    0.1478    0.5000
+104 "leeuw, r. (ronald) de"                  0.3142    0.1458    0.5000
+105 "asscher-vonk, i.p. (irene)"             0.3179    0.1438    0.5000
+106 "cerfontaine, g.j.n.h. (gerlach)"        0.3217    0.1419    0.5000
+107 "sorgdrager, w. (winnie)"                0.3255    0.1401    0.5000
+108 "dijkstal, h.f. (hans)"                  0.3293    0.1382    0.5000
+109 "werner, f.j.m. (jos)"                   0.3331    0.1365    0.5000
+110 "winsemius, p. (pieter)"                 0.3370    0.1347    0.5000
+111 "oranje-nassau, m.f. van (prinses margriet)"    0.3409    0.1330    0.5000
+112 "brinkman, l.c. (elco)"                  0.3447    0.1314    0.5000
+113 "bank, j.th. m. (jan)"                   0.3486    0.1297    0.5000
+114 "verberg, g.h.b. (george)"               0.3526    0.1282    0.5000
+115 "waal, l.j. (lodewijk) de"               0.3565    0.1266    0.5000
+116 "vlies, i.c. (inge) van der"             0.3604    0.1251    0.5000
+117 "voorst tot voorst, b.j.m. (berend-jan) van"    0.3644    0.1237    0.5000
+118 "neervens, j.w.e. (john)"                0.3684    0.1223    0.5000
+119 "jongerius, a.m. (agnes)"                0.3724    0.1209    0.5000
+120 "heerts, a.j.m. (ton)"                   0.3764    0.1196    0.5000
+121 "paas, f.j. (rené)"                      0.3804    0.1183    0.5000
+122 "wientjes, b.e.m. (bernard)"             0.3845    0.1171    0.5000
+123 "boer, r.h. (roelf) de"                  0.3885    0.1159    0.5000
+124 "harst, m.c. (mich) van der"             0.3926    0.1147    0.5000
+125 "hoek, n.w. (niek)"                      0.3966    0.1136    0.5000
+126 "kamminga, j. (jan)"                     0.4007    0.1125    0.5000
+127 "leemhuis-stout, j.m. (joan)"            0.4048    0.1115    0.5000
+128 "nelissen, a.l.m. (ton)"                 0.4089    0.1105    0.5000
+129 "ouwerkerk, h.g. (hans)"                 0.4131    0.1096    0.5000
+130 "vogelaar, c.p. (ella)"                  0.4172    0.1087    0.5000
+131 "waaij, c.w. (kees) van der"             0.4213    0.1078    0.5000
+132 "westerlaken, a.a. (anton)"              0.4255    0.1070    0.5000
+133 "willems, r. (rein)"                     0.4296    0.1062    0.5000
+134 "hermans, l.m.l.h.a. (loek)"             0.4338    0.1055    0.5000
+135 "vreeman, r.l. (ruud)"                   0.4379    0.1048    0.5000
+136 "snoeij, e.l. (edith)"                   0.4421    0.1042    0.5000
+137 "rosenmöller, p. (paul)"                 0.4463    0.1036    0.5000
+138 "vliegenthart, a.m. (margo)"             0.4505    0.1031    0.5000
+139 "kesteren, n.j.j. (niek-jan) van"        0.4547    0.1026    0.5000
+140 "linschoten, r.l.o. (robin)"             0.4589    0.1021    0.5000
+141 "verhoeven, a.h. (ad)"                   0.4631    0.1017    0.5000
+142 "cramer, j.m. (jacqueline)"              0.4673    0.1013    0.5000
+143 "vught, f.a. (frans) van"                0.4715    0.1010    0.5000
+144 "oosterwijk, j.w. (jan willem)"          0.4757    0.1007    0.5000
+145 "alders, j.g.m. (hans)"                  0.4799    0.1005    0.5000
+146 "noordzij, k.j. (karel)"                 0.4842    0.1003    0.5000
+147 "gunning-schepers, l.j. (louise)"        0.4884    0.1002    0.5000
+148 "vermeulen, p.o. (pim)"                  0.4926    0.1001    0.5000
+149 "goorbergh, w.m. (wim) van den"          0.4968    0.1000    0.5000
+150 "ruding, h.o.c.r. (onno)"                0.5011    0.1000    0.5000
+151 "hendrikx, j.a.m. (jan)"                 0.5053    0.1000    0.5000
+152 "pans, r.j.j.m. (ralph)"                 0.5095    0.1001    0.5000
+153 "dijkhuizen, c. (kees) van"              0.5137    0.1002    0.5000
+154 "terpstra, d. (doekle)"                  0.5179    0.1004    0.5000
+155 "veen, e.w. (ernst)"                     0.5222    0.1006    0.5000
+156 "hondt, e.m. (ed) d'"                    0.5264    0.1009    0.5000
+157 "kist, a.w. (anne willem)"               0.5306    0.1012    0.5000
+158 "kuipers, s.k. (simon)"                  0.5348    0.1015    0.5000
+159 "eijndhoven, j.c.m. (josé) van"          0.5390    0.1019    0.5000
+160 "ritzen, j.m.m. (jo)"                    0.5432    0.1023    0.5000
+161 "noorda, s.j. (sijbolt)"                 0.5474    0.1028    0.5000
+162 "luijk, g.j. (hans) van"                 0.5516    0.1033    0.5000
+163 "breimer, d.d. (douwe)"                  0.5558    0.1039    0.5000
+164 "geelhoed, l.a. (ad)"                    0.5600    0.1045    0.5000
+165 "kramer, g.j. (gert-jan)"                0.5641    0.1052    0.5000
+166 "smits, h.n.j. (hans)"                   0.5683    0.1059    0.5000
+167 "sistermans, j.f. (joop)"                0.5725    0.1066    0.5000
+168 "jansen, g.j. (geert)"                   0.5766    0.1074    0.5000
+169 "hoekstra, r.j. (rein jan)"              0.5808    0.1082    0.5000
+170 "leijnse, f. (frans)"                    0.5849    0.1091    0.5000
+171 "nijkamp, p. (peter)"                    0.5890    0.1100    0.5000
+172 "leeuwen, j. (hannie) van"               0.5931    0.1110    0.5000
+173 "dees, d.j.d. (dick)"                    0.5972    0.1120    0.5000
+174 "wiegel, h. (hans)"                      0.6013    0.1130    0.5000
+175 "kottman, r.h.p.w. (rené)"               0.6054    0.1141    0.5000
+176 "donk, w.b.h.j. (wim) van de"            0.6095    0.1153    0.5000
+177 "korthals altes, f. (frits)"             0.6135    0.1164    0.5000
+178 "dales, g.d. (geert)"                    0.6176    0.1177    0.5000
+179 "harchaoui, s. (sadik)"                  0.6216    0.1189    0.5000
+180 "vos-van gortel, m.w.m. (lien)"          0.6256    0.1202    0.5000
+181 "lemstra, w. (wolter)"                   0.6296    0.1216    0.5000
+182 "timmerman-buck, y.e.m.a. (yvonne)"      0.6336    0.1230    0.5000
+183 "rabbinge, r. (rudy)"                    0.6376    0.1244    0.5000
+184 "broek-laman trip, n.h. (nicoline) van den"    0.6415    0.1259    0.5000
+185 "rosenthal, u. (uri)"                    0.6455    0.1274    0.5000
+186 "thissen, ch.p. (tof)"                   0.6494    0.1290    0.5000
+187 "lubbers, r.f.m. (ruud)"                 0.6533    0.1305    0.5000
+188 "cohen, m.j. (job)"                      0.6572    0.1322    0.5000
+189 "brouwer-korf, a.h. (annie)"             0.6611    0.1339    0.5000
+190 "tjeenk willink, h.d. (herman)"          0.6649    0.1356    0.5000
+191 "voorhoeve, j.j.c. (joris)"              0.6688    0.1374    0.5000
+192 "zwarts, h. (hans)"                      0.6726    0.1392    0.5000
+193 "teulings, c.n. (coen)"                  0.6764    0.1410    0.5000
+194 "terpstra, e.g. (erica)"                 0.6802    0.1429    0.5000
+195 "vollenhoven, p. (pieter) van"           0.6839    0.1448    0.5000
+196 "docters van leeuwen, a.w.h. (arthur)"    0.6877    0.1468    0.5000
+197 "veer, b. (ben) van der"                 0.6914    0.1488    0.5000
+198 "havermans, a.j.e. (ad)"                 0.6951    0.1508    0.5000
+199 "constandse, b.j. (bart jan)"            0.6988    0.1529    0.5000
+200 "verwaayen, b.j.m. (ben)"                0.7024    0.1550    0.5000
+201 "baak, de/bestuur"                       0.7061    0.1572    0.5000
+202 "abn amro/adviesraad"                    0.7097    0.1594    0.5000
+203 "abn amro/raad van bestuur"              0.7133    0.1616    0.5000
+204 "abn amro/raad van commissarissen"       0.7168    0.1639    0.5000
+205 "ahold/raad van commissarissen"          0.7204    0.1662    0.5000
+206 "akzo nobel/raad van bestuur"            0.7239    0.1685    0.5000
+207 "akzo nobel/raad van commissarissen"     0.7274    0.1709    0.5000
+208 "beatrixfonds/bestuur"                   0.7308    0.1733    0.5000
+209 "buhrmann/raad van commissarissen"       0.7343    0.1758    0.5000
+210 "concertgebouw fonds/bestuur"            0.7377    0.1783    0.5000
+211 "concertgebouw nv/directie"              0.7411    0.1808    0.5000
+212 "concertgebouw nv/raad van commissarissen"    0.7444    0.1834    0.5000
+213 "concertgebouworkest/bestuur"            0.7477    0.1860    0.5000
+214 "conference board/international council"    0.7510    0.1886    0.5000
+215 "corus/board"                            0.7543    0.1913    0.5000
+216 "delta lloyd/raad van bestuur"           0.7576    0.1940    0.5000
+217 "delta lloyd/raad van commissarissen"    0.7608    0.1967    0.5000
+218 "euronext/raad van commissarissen"       0.7640    0.1995    0.5000
+219 "fortis/raad van commissarissen"         0.7671    0.2023    0.5000
+220 "heineken/board of directors"            0.7703    0.2051    0.5000
+221 "heineken/raad van bestuur"              0.7734    0.2080    0.5000
+222 "heineken/raad van commissarissen"       0.7764    0.2109    0.5000
+223 "hva/college"                            0.7795    0.2138    0.5000
+224 "kpmg/raad van bestuur"                  0.7825    0.2168    0.5000
+225 "kpn/raad van bestuur"                   0.7854    0.2198    0.5000
+226 "kpn/raad van commissarissen"            0.7884    0.2228    0.5000
+227 "kunstbezit/bestuur"                     0.7913    0.2259    0.5000
+228 "kunstbezit/raad van toezicht"           0.7942    0.2290    0.5000
+229 "luf/algemeen bestuur"                   0.7970    0.2321    0.5000
+230 "luf/dagelijks bestuur"                  0.7998    0.2352    0.5000
+231 "mauritshuis/raad van toezicht"          0.8026    0.2384    0.5000
+232 "mondriaan stichting/bestuur"            0.8054    0.2416    0.5000
+233 "muziektheater/bestuur"                  0.8081    0.2449    0.5000
+234 "muziektheater/directie"                 0.8107    0.2481    0.5000
+235 "muziektheater/raad van toezicht"        0.8134    0.2514    0.5000
+236 "nationale ballet/bestuur"               0.8160    0.2548    0.5000
+237 "nationale ballet/raad van toezicht"     0.8186    0.2581    0.5000
+238 "nieuwe kerk/bestuur"                    0.8211    0.2615    0.5000
+239 "nieuwe kerk/directie"                   0.8236    0.2649    0.5000
+240 "nijenrode/internationale adviesraad"    0.8261    0.2683    0.5000
+241 "nijenrode/raad van toezicht"            0.8285    0.2718    0.5000
+242 "nijenrode/stichtingsbestuur"            0.8309    0.2753    0.5000
+243 "nki/raad van commissarissen"            0.8332    0.2788    0.5000
+244 "nki/raad van toezicht"                  0.8356    0.2823    0.5000
+245 "nos/raad van toezicht"                  0.8378    0.2858    0.5000
+246 "nvb/bestuur"                            0.8401    0.2894    0.5000
+247 "opera/bestuur"                          0.8423    0.2930    0.5000
+248 "economische zaken/college"              0.8445    0.2967    0.5000
+249 "philips/raad van bestuur"               0.8466    0.3003    0.5000
+250 "philips/raad van commissarissen"        0.8487    0.3040    0.5000
+251 "prins bernhard cultuurfonds/raad van toezicht"    0.8507    0.3077    0.5000
+252 "randstad/raad van commissarissen"       0.8527    0.3114    0.5000
+253 "reed elsevier/raad van commissarissen"    0.8547    0.3151    0.5000
+254 "rembrandt, vereniging/adviesraad"       0.8566    0.3189    0.5000
+255 "rembrandt, vereniging/bestuur"          0.8585    0.3227    0.5000
+256 "rijksmuseum, het/directie"              0.8604    0.3264    0.5000
+257 "rijksmuseum, het/raad van toezicht"     0.8622    0.3303    0.5000
+258 "rug/college van bestuur"                0.8640    0.3341    0.5000
+259 "rug/raad van toezicht"                  0.8657    0.3379    0.5000
+260 "rul (leiden)/college van bestuur"       0.8674    0.3418    0.5000
+261 "rul (leiden)/raad van toezicht"         0.8690    0.3457    0.5000
+262 "scp/directie"                           0.8707    0.3496    0.5000
+263 "ser/raad"                               0.8722    0.3535    0.5000
+264 "ser/dagelijks bestuur"                  0.8737    0.3575    0.5000
+265 "shv/raad van commissarissen"            0.8752    0.3614    0.5000
+266 "stadsherstel amsterdam/raad van commissarissen"    0.8767    0.3654    0.5000
+267 "stedelijk museum amsterdam/bestuur"     0.8781    0.3694    0.5000
+268 "stedelijk museum amsterdam/raad van toezicht"    0.8794    0.3734    0.5000
+269 "stork/raad van commissarissen"          0.8807    0.3774    0.5000
+270 "tno/raad van toezicht"                  0.8820    0.3814    0.5000
+271 "tud/college van bestuur"                0.8833    0.3855    0.5000
+272 "tud/raad van toezicht"                  0.8844    0.3895    0.5000
+273 "unilever/raad van commissarissen"       0.8856    0.3936    0.5000
+274 "vno-ncw/curatorium"                     0.8867    0.3977    0.5000
+275 "vno-ncw/dagelijks bestuur"              0.8877    0.4018    0.5000
+276 "vno-ncw/directie"                       0.8888    0.4059    0.5000
+277 "vnu/raad van commissarissen"            0.8897    0.4100    0.5000
+278 "vu/raad van toezicht"                   0.8907    0.4141    0.5000
+279 "wolters kluwer/raad van commissarissen"    0.8915    0.4182    0.5000
+280 "ing groep/raad van bestuur"             0.8924    0.4224    0.5000
+281 "ing groep/raad van commissarissen"      0.8932    0.4265    0.5000
+282 "uva/college van bestuur"                0.8939    0.4307    0.5000
+283 "uva/raad van toezicht"                  0.8947    0.4348    0.5000
+284 "eur/raad van bestuur"                   0.8953    0.4390    0.5000
+285 "eur/raad van toezicht"                  0.8959    0.4432    0.5000
+286 "dsm/raad van bestuur"                   0.8965    0.4474    0.5000
+287 "dsm/raad van commissarissen"            0.8971    0.4515    0.5000
+288 "dnb/bankraad"                           0.8975    0.4557    0.5000
+289 "dnb/directie"                           0.8980    0.4599    0.5000
+290 "dnb/raad van commissarissen"            0.8984    0.4641    0.5000
+291 "uu (utrecht)/college van bestuur"       0.8987    0.4684    0.5000
+292 "uu (utrecht)/raad van toezicht"         0.8991    0.4726    0.5000
+293 "vendex kbb/raad van commissarissen"     0.8993    0.4768    0.5000
+294 "kamer van koophandel (us)/board"        0.8995    0.4810    0.5000
+295 "arcadis/raad van commissarissen"        0.8997    0.4852    0.5000
+296 "royal dutch shell/board of directors"    0.8999    0.4894    0.5000
+297 "royal dutch shell/supervisory board"    0.8999    0.4937    0.5000
+298 "pon/raad van commissarissen"            0.9000    0.4979    0.5000
+299 "ocw/adviesraad voor het wetenschaps- en techniekbeleid"    0.9000    0.5021    0.5000
+300 "getronics/raad van commissarissen"      0.8999    0.5063    0.5000
+301 "ncd/bestuur"                            0.8999    0.5106    0.5000
+302 "ut (twente)/adviesraad"                 0.8997    0.5148    0.5000
+303 "ut (twente)/raad van toezicht"          0.8995    0.5190    0.5000
+304 "aegon/raad van bestuur"                 0.8993    0.5232    0.5000
+305 "aegon/raad van commissarissen"          0.8991    0.5274    0.5000
+306 "uvt (tilburg)/stichtingsbestuur"        0.8987    0.5316    0.5000
+307 "tnt/raad van bestuur"                   0.8984    0.5359    0.5000
+308 "tnt/raad van commissarissen"            0.8980    0.5401    0.5000
+309 "rijksoverheid/minister van staat"       0.8975    0.5443    0.5000
+310 "kenniscentrum pps/stuurgroep"           0.8971    0.5485    0.5000
+311 "asml/raad van commissarissen"           0.8965    0.5526    0.5000
+312 "delft instruments/raad van commissarissen"    0.8959    0.5568    0.5000
+313 "tue/raad van toezicht"                  0.8953    0.5610    0.5000
+314 "csm/raad van commissarissen"            0.8947    0.5652    0.5000
+315 "asmi/raad van commissarissen"           0.8939    0.5693    0.5000
+316 "ballast nedam/raad van bestuur"         0.8932    0.5735    0.5000
+317 "robeco groep/raad van commissarissen"    0.8924    0.5776    0.5000
+318 "rabobank groep/adviesraad"              0.8915    0.5818    0.5000
+319 "rabobank groep/raad van bestuur"        0.8907    0.5859    0.5000
+320 "rabobank groep/raad van commissarissen"    0.8897    0.5900    0.5000
+321 "financieele dagblad/raad van bestuur"    0.8888    0.5941    0.5000
+322 "afm/raad van toezicht"                  0.8877    0.5982    0.5000
+323 "financiën/commissie kapitaalmarkt"      0.8867    0.6023    0.5000
+324 "numico/raad van bestuur"                0.8856    0.6064    0.5000
+325 "numico/raad van commissarissen"         0.8844    0.6105    0.5000
+326 "air france-klm/raad van commissarissen"    0.8833    0.6145    0.5000
+327 "air france-klm/strategic management commitee"    0.8820    0.6186    0.5000
+328 "rodamco eu/raad van commissarissen"     0.8807    0.6226    0.5000
+329 "opg/raad van commissarissen"            0.8794    0.6266    0.5000
+330 "océ/raad van commissarissen"            0.8781    0.6306    0.5000
+331 "ajax/raad van commissarissen"           0.8767    0.6346    0.5000
+332 "van lanschot/raad van commissarissen"    0.8752    0.6386    0.5000
+333 "wegener/raad van commissarissen"        0.8737    0.6425    0.5000
+334 "ocw/raad voor cultuur"                  0.8722    0.6465    0.5000
+335 "film fonds/bestuur"                     0.8707    0.6504    0.5000
+336 "van gogh museum/raad van toezicht"      0.8690    0.6543    0.5000
+337 "kröller müller/raad van toezicht"       0.8674    0.6582    0.5000
+338 "het loo/raad van toezicht"              0.8657    0.6621    0.5000
+339 "kh/hof"                                 0.8640    0.6659    0.5000
+340 "vsbfonds/bestuur"                       0.8622    0.6697    0.5000
+341 "fnv/bestuur"                            0.8604    0.6736    0.5000
+342 "cnv/bestuur"                            0.8585    0.6773    0.5000
+343 "mkb/bestuur"                            0.8566    0.6811    0.5000
+344 "cwi/adviesraad"                         0.8547    0.6849    0.5000
+345 "abvakabo/bestuur"                       0.8527    0.6886    0.5000
+346 "uwv/adviesraad"                         0.8507    0.6923    0.5000
+347 "svb/adviesraad"                         0.8487    0.6960    0.5000
+348 "economische zaken/secretaris generaal"    0.8466    0.6997    0.5000
+349 "awvn/bestuur"                           0.8445    0.7033    0.5000
+350 "ncw/bestuur"                            0.8423    0.7070    0.5000
+351 "mhp/bestuur"                            0.8401    0.7106    0.5000
+352 "avbb/bestuur"                           0.8378    0.7142    0.5000
+353 "fme-cwm/bestuur"                        0.8356    0.7177    0.5000
+354 "abp/bestuur"                            0.8332    0.7212    0.5000
+355 "abp/directie"                           0.8309    0.7247    0.5000
+356 "pggm/bestuur"                           0.8285    0.7282    0.5000
+357 "arbo unie/bestuur"                      0.8261    0.7317    0.5000
+358 "arbo unie/raad van commissarissen"      0.8236    0.7351    0.5000
+359 "verbond van verzekeraars/bestuur"       0.8211    0.7385    0.5000
+360 "tln/dagelijks bestuur"                  0.8186    0.7419    0.5000
+361 "nibc bank nv/raad van commissarissen"    0.8160    0.7452    0.5000
+362 "bng/raad van bestuur"                   0.8134    0.7486    0.5000
+363 "bng/raad van commissarissen"            0.8107    0.7519    0.5000
+364 "ocw/onderwijsraad"                      0.8081    0.7551    0.5000
+365 "hbo-raad/bestuur"                       0.8054    0.7584    0.5000
+366 "vsnu/algemeen bestuur"                  0.8026    0.7616    0.5000
+367 "vsnu/presidium"                         0.7998    0.7648    0.5000
+368 "boerhaave/bestuur"                      0.7970    0.7679    0.5000
+369 "radboud universiteit/stichtingsbestuur"    0.7942    0.7710    0.5000
+370 "um (maastricht)/college van bestuur"    0.7913    0.7741    0.5000
+371 "um (maastricht)/raad van toezicht"      0.7884    0.7772    0.5000
+372 "algemene zaken/innovatieplatform"       0.7854    0.7802    0.5000
+373 "health valley/bestuur"                  0.7825    0.7832    0.5000
+374 "npcf/bestuur"                           0.7795    0.7862    0.5000
+375 "ctg/bestuur"                            0.7764    0.7891    0.5000
+376 "zn/bestuur"                             0.7734    0.7920    0.5000
+377 "nvz/bestuur"                            0.7703    0.7949    0.5000
+378 "umcg (groningen)/raad van toezicht"     0.7671    0.7977    0.5000
+379 "amc/raad van bestuur"                   0.7640    0.8005    0.5000
+380 "amc/raad van toezicht"                  0.7608    0.8033    0.5000
+381 "vumc/raad van toezicht"                 0.7576    0.8060    0.5000
+382 "lumc/raad van toezicht"                 0.7543    0.8087    0.5000
+383 "umcu (utrecht)/raad van toezicht"       0.7510    0.8114    0.5000
+384 "erasmus mc/raad van toezicht"           0.7477    0.8140    0.5000
+385 "azm/raad van toezicht"                  0.7444    0.8166    0.5000
+386 "vws/raad voor de volksgezondheid & zorg"    0.7411    0.8192    0.5000
+387 "boer & croon/??"                        0.7377    0.8217    0.5000
+388 "achmea/raad van commissarissen"         0.7343    0.8242    0.5000
+389 "nvao/algemeen bestuur"                  0.7308    0.8267    0.5000
+390 "hu/raad van toezicht"                   0.7274    0.8291    0.5000
+391 "eua/dagelijks bestuur"                  0.7239    0.8315    0.5000
+392 "arboned/raad van commissarissen"        0.7204    0.8338    0.5000
+393 "algemene zaken/wetenschappelijke raad voor het regeringsbeleid"    0.7168    0.8361    0.5000
+394 "buitenlandse zaken/adviesraad internationale vraagstukken"    0.7133    0.8384    0.5000
+395 "economische zaken/algemene energieraad"    0.7097    0.8406    0.5000
+396 "justitie/adviescommissie voor vreemdelingenzaken"    0.7061    0.8428    0.5000
+397 "verkeer&waterstaat/raad voor verkeer en waterstaat"    0.7024    0.8450    0.5000
+398 "stichting vnu/bestuur"                  0.6988    0.8471    0.5000
+399 "vws/raad voor maatschappelijke ontwikkeling"    0.6951    0.8492    0.5000
+400 "cbp/adviesraad"                         0.6914    0.8512    0.5000
+401 "justitie/commissie vennootschapsrecht"    0.6877    0.8532    0.5000
+402 "verkeer&waterstaat/veiligheidsadviescommissie schiphol"    0.6839    0.8552    0.5000
+403 "economische zaken/mijnraad"             0.6802    0.8571    0.5000
+404 "economische zaken/adviescommissie duurzame energie"    0.6764    0.8590    0.5000
+405 "justitie/college van toezicht op de kansspelen"    0.6726    0.8608    0.5000
+406 "berenschot/raad van commissarissen"     0.6688    0.8626    0.5000
+407 "nai/bestuur"                            0.6649    0.8644    0.5000
+408 "staten generaal/eerste kamer"           0.6611    0.8661    0.5000
+409 "amsterdam/college van b&w"              0.6572    0.8678    0.5000
+410 "utrecht/college van b&w"                0.6533    0.8695    0.5000
+411 "tilburg/college van b&w"                0.6494    0.8710    0.5000
+412 "wiardi beckman/curatorium"              0.6455    0.8726    0.5000
+413 "wetenschappelijk instituut/bestuur"     0.6415    0.8741    0.5000
+414 "telder/curatorium"                      0.6376    0.8756    0.5000
+415 "raad van state/raad"                    0.6336    0.8770    0.5000
+416 "ns/raad van bestuur"                    0.6296    0.8784    0.5000
+417 "ns/raad van commissarissen"             0.6256    0.8798    0.5000
+418 "schiphol/directie"                      0.6216    0.8811    0.5000
+419 "schiphol/raad van commissarissen"       0.6176    0.8823    0.5000
+420 "cpb/directie"                           0.6135    0.8836    0.5000
+421 "staten generaal/raad van economisch adviseurs"    0.6095    0.8847    0.5000
+422 "twynstra en gudde/raad van commissarissen"    0.6054    0.8859    0.5000
+423 "noc*nsf/bestuur"                        0.6013    0.8870    0.5000
+424 "kro/bestuur"                            0.5972    0.8880    0.5000
+425 "nps/bestuur"                            0.5931    0.8890    0.5000
+426 "democratie en media/adviesraad"         0.5890    0.8900    0.5000
+427 "democratie en media/bestuur"            0.5849    0.8909    0.5000
+428 "kadaster/raad van toezicht"             0.5808    0.8918    0.5000
+429 "vng/dagelijks bestuur"                  0.5766    0.8926    0.5000
+430 "vng/directie"                           0.5725    0.8934    0.5000
+431 "bam/raad van commissarissen"            0.5683    0.8941    0.5000
+432 "fugro/raad van commissarissen"          0.5641    0.8948    0.5000
+433 "havenbedrijf/raad van bestuur"          0.5600    0.8955    0.5000
+434 "havenbedrijf/raad van commissarissen"    0.5558    0.8961    0.5000
+435 "nexus/adviesraad"                       0.5516    0.8967    0.5000
+436 "nexus/bestuur"                          0.5474    0.8972    0.5000
+437 "nexus/raad van toezicht"                0.5432    0.8977    0.5000
+438 "cot/directie"                           0.5390    0.8981    0.5000
+439 "stw/bestuursraad"                       0.5348    0.8985    0.5000
+440 "nwo/algemeen bestuur"                   0.5306    0.8988    0.5000
+441 "clingendael/raad van commissarissen"    0.5264    0.8991    0.5000
+442 "lnv/commissie biotechnologie bij dieren"    0.5222    0.8994    0.5000
+443 "binnenlandse zaken/advies- en arbitragecommissie"    0.5179    0.8996    0.5000
+444 "vrom/commissie voor de milieueffectrapportage: bestuur"    0.5137    0.8998    0.5000
+445 "vrom/commissie voor de milieueffectrapportage: presidium"    0.5095    0.8999    0.5000
+446 "rvtv/bestuur"                           0.5053    0.9000    0.5000
+447 "cbz/bestuur"                            0.5011    0.9000    0.5000
+448 "nftw/forum"                             0.4968    0.9000    0.5000
+449 "kivi-niria/bestuur"                     0.4926    0.8999    0.5000
+450 "maatschappij en veiligheid/adviesraad"    0.4884    0.8998    0.5000
+451 "maatschappij en veiligheid/bestuur"     0.4842    0.8997    0.5000
+452 "ngiz/board"                             0.4799    0.8995    0.5000
+453 "onderwijsinspectie/adviesraad"          0.4757    0.8993    0.5000
+454 "de rechtspraak/raad"                    0.4715    0.8990    0.5000
+455 "amsterdams historisch/bestuur"          0.4673    0.8987    0.5000
+456 "bouwfonds/raad van commissarissen"      0.4631    0.8983    0.5000
+457 "rijksmuseum fonds/bestuur"              0.4589    0.8979    0.5000
+458 "financiën/adviescollege toetsing administratie lasten"    0.4547    0.8974    0.5000
+459 "eu/commissie"                           0.4505    0.8969    0.5000
+460 "bepa/adviesraad"                        0.4463    0.8964    0.5000
+461 "ocw/adviescommissie restitutieverzoeken cultuurgoederen en wo ii"    0.4421    0.8958    0.5000
+462 "verkeer&waterstaat/adviescommissie water"    0.4379    0.8952    0.5000
+463 "veerstichting/commissie"                0.4338    0.8945    0.5000
+464 "veerstichting/raad van toezicht"        0.4296    0.8938    0.5000
+465 "csz/bestuur"                            0.4255    0.8930    0.5000
+466 "concertgebouw fonds/gustav mahler kring"    0.4213    0.8922    0.5000
+467 "concertgebouw fonds/johannes brahms kring"    0.4172    0.8913    0.5000
+468 "groningen/commissaris van de koningin"    0.4131    0.8904    0.5000
+469 "overijssel/commissaris van de koningin"    0.4089    0.8895    0.5000
+470 "utrecht/commissaris van de koningin"    0.4048    0.8885    0.5000
+471 "oranje fonds/bestuur"                   0.4007    0.8875    0.5000
+472 "claus fonds/bestuur"                    0.3966    0.8864    0.5000
+473 "ioc/comite"                             0.3926    0.8853    0.5000
+474 "rand europe/adviesraad"                 0.3885    0.8841    0.5000
+475 "rand europe/raad van commissarissen"    0.3845    0.8829    0.5000
+476 "gasunie n.v./raad van commissarissen"    0.3804    0.8817    0.5000
+477 "financiën/studiegroep begrotingsruimte"    0.3764    0.8804    0.5000
+478 "historische buitenplaatsen/raad van toezicht"    0.3724    0.8791    0.5000
+479 "ihc holland/raad van commissarissen"    0.3684    0.8777    0.5000
+480 "vrienden concertgebouw/bestuur"         0.3644    0.8763    0.5000
+481 "zonmw/bestuur"                          0.3604    0.8749    0.5000
+482 "vws/stuurgroep modernisering beroepsuitoefening in de gezondheidszorg"    0.3565    0.8734    0.5000
+483 "4 en 5 mei/algemeen bestuur"            0.3526    0.8718    0.5000
+484 "4 en 5 mei/dagelijks bestuur"           0.3486    0.8703    0.5000
+485 "essent/raad van commissarissen"         0.3447    0.8686    0.5000
+486 "nuon/raad van commissarissen"           0.3409    0.8670    0.5000
+487 "onvz/raad van commissarissen"           0.3370    0.8653    0.5000
+488 "anne frank/raad van toezicht"           0.3331    0.8635    0.5000
+489 "tennet/raad van commissarissen"         0.3293    0.8618    0.5000
+490 "eu/comittee of european securities regulators"    0.3255    0.8599    0.5000
+491 "aidsfonds/raad van toezicht"            0.3217    0.8581    0.5000
+492 "trilateral commission/bestuur"          0.3179    0.8562    0.5000
+493 "ndl/bestuur"                            0.3142    0.8542    0.5000
+494 "ndl/raad van toezicht"                  0.3105    0.8522    0.5000
+495 "de brauw/bestuur"                       0.3067    0.8502    0.5000
+496 "stibbe/directie"                        0.3031    0.8482    0.5000
+497 "han/raad van toezicht"                  0.2994    0.8461    0.5000
+498 "zuyd/raad van toezicht"                 0.2957    0.8439    0.5000
+499 "ubbo emmius (groningen)/bestuur"        0.2921    0.8417    0.5000
+500 "stop aids/raad van toezicht"            0.2885    0.8395    0.5000
+501 "stop aids/stichtingsbestuur"            0.2850    0.8373    0.5000
+502 "jaarbeurs/raad van commissarissen"      0.2814    0.8350    0.5000
+503 "ert/raad"                               0.2779    0.8327    0.5000
+504 "fmo/raad van commissarissen"            0.2744    0.8303    0.5000
+505 "vnci/dagelijks bestuur"                 0.2709    0.8279    0.5000
+506 "economische zaken/ambassadeursnetwerk"    0.2675    0.8255    0.5000
+507 "hermitage/bestuur"                      0.2640    0.8230    0.5000
+508 "hermitage/directie"                     0.2606    0.8205    0.5000
+509 "van leer/bestuur"                       0.2573    0.8179    0.5000
+510 "kempen & co/raad van commissarissen"    0.2539    0.8153    0.5000
+511 "egeria/adviesraad"                      0.2506    0.8127    0.5000
+512 "lauwerecht/bestuur"                     0.2473    0.8101    0.5000
+513 "nieuw leiderschap/bestuur"              0.2441    0.8074    0.5000
+514 "cordares/raad van commissarissen"       0.2408    0.8047    0.5000
+515 "staatsloterij/raad van commissarissen"    0.2376    0.8019    0.5000
+516 "opportunity/bestuur"                    0.2344    0.7991    0.5000
+517 "sos/adviesraad"                         0.2313    0.7963    0.5000
+518 "ad nieuwsmedia/raad van commissarissen"    0.2282    0.7935    0.5000
+519 "hivos/raad van toezicht"                0.2251    0.7906    0.5000
+520 "wpf/bestuur"                            0.2221    0.7877    0.5000
+521 "stichting vluchteling/bestuur"          0.2190    0.7847    0.5000
+522 "terre des hommes/bestuur"               0.2160    0.7817    0.5000
+523 "novib/raad van toezicht"                0.2131    0.7787    0.5000
+524 "natuurmonumenten/bestuur"               0.2102    0.7757    0.5000
+525 "wnf/raad van toezicht"                  0.2073    0.7726    0.5000
+526 "reumafonds/bestuur"                     0.2044    0.7695    0.5000
+527 "unicef/raad van toezicht"               0.2016    0.7663    0.5000
+528 "rode kruis/bestuur"                     0.1988    0.7632    0.5000
+529 "lotto, de/beneficiantenraad"            0.1960    0.7600    0.5000
+530 "lotto, de/raad van commissarissen"      0.1933    0.7568    0.5000
+531 "forum/raad van bestuur"                 0.1906    0.7535    0.5000
+532 "sociale zaken/taskforce jeugdwerkloosheid"    0.1879    0.7502    0.5000
+533 "sociale zaken/overleggroep jeugdwerkloosheid"    0.1853    0.7469    0.5000
+534 "sociale zaken/regiegroep grijs werkt"    0.1827    0.7436    0.5000
+535 "sociale zaken/commissie het werkend perspectief"    0.1802    0.7402    0.5000
+536 "sociale zaken/arbo platform nederland"    0.1776    0.7368    0.5000
+537 "sociale zaken/joke-smit prijs"          0.1752    0.7334    0.5000
+538 "financiën/commissie modernisering beleggingsinstellingen"    0.1727    0.7300    0.5000
+539 "financiën/ketenberaad project xbrl"     0.1703    0.7265    0.5000
+540 "justitie/visitatiecommissie wetgeving"    0.1679    0.7230    0.5000
+541 "justitie/adviescommissie justitie in de buurt"    0.1656    0.7195    0.5000
+542 "justitie/begeleidingscommissie bibob"    0.1633    0.7159    0.5000
+543 "justitie/commissie evaluatie vreemdelingenwet 2000"    0.1610    0.7124    0.5000
+544 "justitie/commissie opleidingsvereisten juridische beroepen"    0.1588    0.7088    0.5000
+545 "justitie/stuurgroep evaluatie politieorganisatie"    0.1566    0.7052    0.5000
+546 "ocw/stuurgroep sectorraden en kennisfunctie rijksoverheid"    0.1545    0.7015    0.5000
+547 "ocw/commissie 'ruim baan voor talent'"    0.1524    0.6979    0.5000
+548 "ocw/committee review degrees (internationale commissie)"    0.1503    0.6942    0.5000
+549 "binnenlandse zaken/voorselectie commissie topmanagement abd"    0.1483    0.6905    0.5000
+550 "binnenlandse zaken/referendumcommissie"    0.1463    0.6868    0.5000
+551 "binnenlandse zaken/adviescommissie rechtspositie politieke ambtsdragers"    0.1443    0.6830    0.5000
+552 "binnenlandse zaken/commissie evaluatie provinciale dualisering"    0.1424    0.6792    0.5000
+553 "binnenlandse zaken/commissie integratie rijksoverheid"    0.1405    0.6755    0.5000
+554 "binnenlandse zaken/adviescommissie grondrechten en functie-uitoefening ambtenaren"    0.1387    0.6716    0.5000
+555 "binnenlandse zaken/landelijk beraad crisisbeheersing"    0.1369    0.6678    0.5000
+556 "binnenlandse zaken/adviescommissie coordinatie ict rampenbestrijding"    0.1352    0.6640    0.5000
+557 "binnenlandse zaken/commissie innovatie openbaaar bestuur"    0.1334    0.6601    0.5000
+558 "binnenlandse zaken/auditteam voetbalvandalisme"    0.1318    0.6562    0.5000
+559 "binnenlandse zaken/programmaraad lecd"    0.1301    0.6523    0.5000
+560 "binnenlandse zaken/programma andere overheid: cie. rijksbrede takenanalyse: veiligheid en "    0.1286    0.6484    0.5000
+561 "binnenlandse zaken/programma andere overheid: takenanalyse departementale "    0.1270    0.6445    0.5000
+562 "binnenlandse zaken/programma andere overheid; cie. rijksbrede takenanalyse: bestuurlijke "    0.1255    0.6405    0.5000
+563 "binnenlandse zaken/programma andere overheid; cie. rijksbrede takenanalyse: geintegreerd "    0.1240    0.6366    0.5000
+564 "binnenlandse zaken/programma andere overheid; cie. rijksbrede takenanalyse: gevaarlijke "    0.1226    0.6326    0.5000
+565 "binnenlandse zaken/programma andere overheid; cie. rijksbrede takenanalyse: "    0.1212    0.6286    0.5000
+566 "binnenlandse zaken/programma andere overheid; cie. rijksbrede takenanalyse: sturing eu-"    0.1199    0.6246    0.5000
+567 "buitenlandse zaken/adviesraad internationale vraagstukken/commissie europese integratie"    0.1186    0.6206    0.5000
+568 "defensie/commissie lemstra"             0.1174    0.6166    0.5000
+569 "defensie/college geschillen medezeggenschap defensie (cgmd)"    0.1161    0.6125    0.5000
+570 "economische zaken/regieraad bouw"       0.1150    0.6084    0.5000
+571 "economische zaken/programma commissie mkb en ondernemerschap"    0.1139    0.6044    0.5000
+572 "economische zaken/gemengde commissie administratieve lasten ez en onderliggende "    0.1128    0.6003    0.5000
+573 "financiën/monitoring commissie coporate governance"    0.1117    0.5962    0.5000
+574 "financiën/audit committee financiën"    0.1107    0.5921    0.5000
+575 "vvb/bestuur"                            0.1098    0.5880    0.5000
+576 "verkeer&waterstaat/commissie stedelijke distributie"    0.1089    0.5839    0.5000
+577 "verkeer&waterstaat/aviescollege beter geregeld"    0.1080    0.5797    0.5000
+578 "verkeer&waterstaat/overlegorgaan goederenvervoer"    0.1072    0.5756    0.5000
+579 "verkeer&waterstaat/nationale havenraad"    0.1064    0.5714    0.5000
+580 "amsterdam partners/raad van bestuur"    0.1057    0.5673    0.5000
+581 "khmw/bestuur"                           0.1050    0.5631    0.5000
+582 "vws/begeleidingscollege scp"            0.1044    0.5589    0.5000
+583 "rivm/raad van toezicht"                 0.1038    0.5547    0.5000
+584 "vws/regionale toetsingscommissies euthenasie"    0.1032    0.5506    0.5000
+585 "vws/taskforce handicap en samenleving"    0.1027    0.5464    0.5000
+586 "vws/consumentenplatform"                0.1022    0.5422    0.5000
+587 "lnv/gemengde commissie administratieve lasten"    0.1018    0.5380    0.5000
+588 "lnv/bestuur innovatienetwerk groene ruimte en agrocluster"    0.1014    0.5338    0.5000
+589 "lnv/commissie schadebepaling kokkelvisserij"    0.1011    0.5295    0.5000
+590 "talpa media holding/raad van commissarissen"    0.1008    0.5253    0.5000
+591 "vws/programma sneller beter"            0.1006    0.5211    0.5000
+592 "klm/directie"                           0.1004    0.5169    0.5000
+593 "klm/raad van commissarissen"            0.1002    0.5127    0.5000
+594 "hoge veluwe/adviesraad"                 0.1001    0.5084    0.5000
+595 "hoge veluwe/raad van toezicht"          0.1000    0.5042    0.5000
+*Edges :2 "Voorzitter/Chairman"
+  1 281
+  1 286
+  3 277
+  4 244
+  4 488
+  5 266
+  6 210
+  9 227
+  9 255
+ 12 231
+ 12 273
+ 14 582
+ 15 472
+ 16 491
+ 19 218
+ 19 478
+ 20 253
+ 20 308
+ 20 385
+ 21 570
+ 22 269
+ 22 419
+ 23 313
+ 24 236
+ 27 204
+ 27 207
+ 29 516
+ 30 293
+ 30 589
+ 31 403
+ 31 417
+ 31 486
+ 33 494
+ 34 212
+ 34 263
+ 35 291
+ 36 463
+ 39 422
+ 39 487
+ 40 233
+ 40 247
+ 41 213
+ 41 238
+ 41 581
+ 43 257
+ 43 306
+ 43 383
+ 43 513
+ 43 524
+ 45 203
+ 45 268
+ 46 205
+ 47 593
+ 48 455
+ 48 580
+ 52 242
+ 52 267
+ 52 358
+ 53 222
+ 54 206
+ 54 471
+ 54 499
+ 55 311
+ 56 449
+ 57 209
+ 57 315
+ 57 317
+ 57 321
+ 58 325
+ 60 349
+ 61 286
+ 61 371
+ 62 448
+ 63 300
+ 64 500
+ 67 226
+ 69 253
+ 69 261
+ 69 382
+ 70 506
+ 72 485
+ 73 279
+ 73 322
+ 74 330
+ 74 369
+ 75 328
+ 76 290
+ 76 329
+ 77 432
+ 78 350
+ 78 384
+ 79 278
+ 79 288
+ 79 314
+ 79 381
+ 82 331
+ 83 230
+ 83 333
+ 86 319
+ 89 246
+ 90 320
+ 90 514
+ 92 337
+ 94 416
+ 96 346
+ 97 232
+ 97 334
+ 97 427
+ 97 484
+ 99 454
+101 462
+103 265
+106 480
+107 482
+107 577
+108 335
+109 373
+110 336
+110 510
+112 352
+112 354
+112 528
+114 259
+117 228
+117 566
+118 355
+119 341
+121 342
+122 275
+122 535
+124 360
+125 216
+125 359
+126 353
+127 377
+127 545
+129 541
+130 523
+132 535
+133 505
+134 343
+134 549
+134 552
+134 556
+136 345
+138 533
+140 458
+141 351
+142 404
+145 356
+145 530
+145 555
+147 379
+148 362
+149 437
+150 363
+151 578
+152 430
+153 310
+153 477
+154 365
+156 366
+156 367
+158 258
+159 284
+160 370
+161 223
+161 282
+161 380
+162 271
+163 260
+165 272
+165 431
+166 433
+166 572
+167 299
+168 397
+169 413
+169 540
+171 440
+172 585
+173 481
+173 536
+174 376
+175 316
+176 393
+177 394
+177 515
+179 531
+180 405
+181 568
+181 576
+182 408
+185 438
+187 274
+188 412
+189 526
+190 501
+191 520
+191 561
+194 423
+195 446
+195 451
+196 490
+197 224
+*Edges :3 "Vice-voorzitter/Vice-chairman"
+  4 257
+  5 378
+ 20 205
+ 21 306
+ 25 246
+ 27 227
+ 27 255
+ 43 502
+ 47 298
+ 48 210
+ 55 287
+ 61 290
+ 62 286
+ 62 505
+ 66 222
+ 77 595
+ 78 215
+ 84 332
+108 585
+111 528
+112 278
+112 381
+120 341
+128 352
+136 354
+151 363
+151 485
+156 528
+167 448
+170 514
+188 585
+189 429
+*Edges :4 "Penningmeester/treasurer"
+ 22 244
+ 24 232
+ 24 251
+ 40 213
+ 52 471
+ 69 472
+ 83 457
+ 84 210
+*Edges :5 "Lid/member"
+  1 323
+  2 223
+  2 243
+  2 281
+  2 367
+  2 380
+  2 443
+  2 486
+  2 569
+  3 208
+  3 228
+  3 240
+  3 323
+  4 235
+  4 237
+  4 281
+  4 297
+  4 308
+  4 593
+  5 281
+  5 455
+  5 524
+  6 207
+  6 220
+  6 241
+  6 281
+  6 467
+  6 512
+  6 525
+  6 563
+  7 201
+  7 269
+  8 207
+  8 254
+  9 213
+  9 415
+ 10 306
+ 10 415
+ 11 292
+ 11 419
+ 12 207
+ 12 242
+ 12 503
+ 13 203
+ 13 275
+ 13 302
+ 13 456
+ 13 504
+ 14 213
+ 14 228
+ 14 447
+ 15 212
+ 15 238
+ 15 248
+ 15 400
+ 15 563
+ 16 204
+ 17 212
+ 17 226
+ 17 247
+ 17 308
+ 17 435
+ 17 467
+ 18 201
+ 18 302
+ 18 318
+ 19 219
+ 19 222
+ 19 250
+ 19 419
+ 20 281
+ 21 252
+ 22 210
+ 22 212
+ 22 398
+ 22 467
+ 23 372
+ 23 503
+ 24 203
+ 24 233
+ 24 246
+ 24 294
+ 24 437
+ 24 455
+ 24 456
+ 25 275
+ 25 280
+ 26 201
+ 26 226
+ 26 372
+ 27 212
+ 27 467
+ 28 254
+ 28 492
+ 28 504
+ 29 204
+ 29 274
+ 29 358
+ 29 408
+ 29 419
+ 29 422
+ 29 509
+ 30 326
+ 30 466
+ 30 475
+ 32 201
+ 32 385
+ 32 393
+ 32 412
+ 32 482
+ 32 543
+ 32 582
+ 33 204
+ 33 242
+ 34 229
+ 34 372
+ 34 467
+ 35 363
+ 35 366
+ 35 435
+ 35 448
+ 35 506
+ 35 548
+ 36 255
+ 36 437
+ 36 518
+ 37 201
+ 37 434
+ 37 591
+ 38 201
+ 38 254
+ 38 336
+ 38 453
+ 38 471
+ 39 450
+ 39 502
+ 39 556
+ 40 203
+ 40 435
+ 40 464
+ 41 475
+ 42 273
+ 42 503
+ 43 265
+ 43 372
+ 43 435
+ 44 306
+ 44 533
+ 44 534
+ 45 240
+ 45 254
+ 45 266
+ 46 277
+ 46 305
+ 46 308
+ 47 274
+ 47 305
+ 47 350
+ 47 457
+ 48 305
+ 48 419
+ 48 467
+ 48 515
+ 49 202
+ 49 252
+ 49 305
+ 49 327
+ 49 494
+ 50 226
+ 50 332
+ 50 573
+ 51 275
+ 51 304
+ 51 359
+ 51 487
+ 53 207
+ 53 250
+ 53 253
+ 53 326
+ 53 338
+ 53 517
+ 53 520
+ 53 551
+ 53 566
+ 53 595
+ 54 503
+ 55 312
+ 55 314
+ 56 311
+ 56 431
+ 56 448
+ 57 218
+ 57 323
+ 57 401
+ 57 407
+ 57 496
+ 58 252
+ 59 250
+ 59 287
+ 59 290
+ 60 275
+ 60 287
+ 60 327
+ 61 277
+ 63 320
+ 63 388
+ 63 486
+ 64 228
+ 64 257
+ 64 452
+ 64 464
+ 65 221
+ 65 294
+ 66 467
+ 67 222
+ 67 238
+ 67 240
+ 67 270
+ 68 202
+ 69 240
+ 70 202
+ 71 298
+ 71 308
+ 71 431
+ 71 434
+ 72 279
+ 72 330
+ 72 406
+ 73 283
+ 73 330
+ 73 380
+ 74 277
+ 74 509
+ 75 240
+ 75 467
+ 76 263
+ 76 489
+ 77 302
+ 77 329
+ 77 448
+ 78 441
+ 78 474
+ 78 486
+ 79 330
+ 79 486
+ 80 252
+ 80 285
+ 80 384
+ 80 387
+ 81 202
+ 81 269
+ 81 353
+ 82 589
+ 83 218
+ 83 295
+ 83 380
+ 83 511
+ 83 538
+ 84 467
+ 84 479
+ 85 332
+ 85 340
+ 85 417
+ 85 435
+ 87 317
+ 87 319
+ 87 368
+ 87 499
+ 87 590
+ 88 246
+ 88 319
+ 88 528
+ 89 288
+ 89 319
+ 89 485
+ 90 270
+ 90 486
+ 90 499
+ 91 320
+ 92 320
+ 92 495
+ 93 288
+ 93 320
+ 93 388
+ 93 506
+ 94 320
+ 94 489
+ 95 231
+ 95 477
+ 95 537
+ 96 261
+ 96 289
+ 96 567
+ 97 267
+ 97 428
+ 98 290
+ 98 414
+ 98 435
+ 99 288
+ 99 290
+ 99 407
+100 290
+100 589
+101 290
+101 337
+101 339
+101 415
+101 473
+102 288
+102 290
+103 222
+103 442
+103 457
+103 499
+104 255
+104 266
+104 435
+105 257
+105 400
+105 443
+105 593
+106 494
+106 585
+107 357
+107 415
+107 527
+107 547
+107 584
+108 443
+108 542
+108 551
+109 232
+109 408
+110 285
+110 393
+110 432
+110 561
+111 338
+111 339
+112 233
+112 247
+112 263
+112 275
+112 560
+113 254
+113 461
+114 251
+114 395
+114 485
+115 228
+115 272
+115 504
+116 228
+116 426
+116 443
+116 461
+116 554
+117 402
+118 371
+118 417
+118 498
+119 263
+119 264
+119 288
+119 519
+120 263
+120 264
+120 536
+121 263
+121 264
+121 288
+122 263
+122 264
+122 288
+122 450
+123 275
+123 493
+123 579
+124 275
+124 493
+125 266
+125 275
+125 288
+125 361
+126 263
+126 275
+126 301
+126 527
+127 270
+127 275
+128 275
+128 423
+128 529
+129 445
+130 389
+130 434
+130 535
+130 551
+131 275
+131 301
+131 358
+131 516
+132 274
+132 278
+132 381
+132 386
+132 551
+133 275
+133 372
+133 506
+134 263
+134 264
+134 288
+134 387
+134 389
+134 536
+134 585
+135 344
+135 358
+135 522
+135 559
+136 263
+136 575
+137 346
+137 528
+138 263
+138 264
+138 347
+138 390
+138 558
+139 264
+139 350
+139 532
+140 263
+140 264
+141 263
+141 264
+141 288
+141 502
+142 263
+142 371
+142 444
+142 497
+142 504
+142 525
+143 364
+143 372
+143 391
+143 460
+144 263
+144 477
+145 499
+146 398
+146 585
+147 358
+148 246
+148 428
+148 451
+149 361
+149 363
+149 369
+149 538
+149 571
+150 240
+151 446
+151 545
+151 562
+151 564
+152 363
+152 566
+154 245
+154 381
+155 254
+156 451
+156 497
+156 539
+157 464
+158 366
+158 448
+158 499
+159 366
+160 366
+161 366
+162 366
+162 448
+162 476
+163 366
+163 372
+163 448
+163 463
+164 285
+164 566
+165 202
+165 210
+165 270
+165 466
+165 573
+166 272
+166 593
+166 594
+167 303
+167 372
+168 302
+168 527
+168 588
+169 259
+169 415
+169 443
+169 544
+170 372
+170 408
+170 548
+171 372
+171 448
+171 546
+172 374
+172 408
+172 534
+173 375
+173 408
+173 582
+174 274
+174 451
+174 456
+175 217
+175 398
+175 515
+177 550
+178 396
+179 399
+179 425
+179 528
+179 532
+179 559
+180 243
+180 450
+180 553
+181 408
+181 444
+181 557
+181 561
+182 424
+183 408
+183 439
+183 448
+183 583
+184 408
+184 465
+185 408
+185 414
+185 446
+186 408
+186 535
+186 585
+187 435
+189 446
+189 450
+189 551
+189 586
+190 436
+190 488
+190 595
+191 415
+192 417
+192 486
+192 494
+192 545
+192 580
+193 263
+193 421
+193 551
+193 565
+194 274
+194 483
+195 339
+197 275
+197 527
+198 551
+198 574
+199 263
+199 264
+199 288
+199 587
+200 274
+200 503
+*Edges :9 "President"
+ 74 392
+ 95 289
+106 418
+*Edges :10 "Vice-president"
+190 415
+*Edges :11 "Directeur/Director"
+ 38 262
+193 420
+*Edges :13 "Chief executive officer"
+ 23 249
+ 37 225
+ 42 296
+ 49 592
+ 68 324
+ 70 307
+*Edges :19 "Medewerker/collaborator"
+192 387
+*Edges :20 "Global counsellor"
+ 22 214
+ 27 214
+ 45 214
+ 47 214
+ 53 214
+ 69 214
+*Edges :21 "Niet uitvoerend directeur/ non-executive director"
+  8 296
+ 27 296
+*Edges :25 "CFO (Chief Financial Officer)"
+ 28 280
+ 50 304
+*Edges :27 "Secretaris/secretary"
+ 97 290
+108 507
+117 521
+*Edges :52 "= 29 ???"
+ 82 387
+*Edges :34 "Hoofddirecteur/general manager"
+ 36 211
+ 85 234
+155 239
+155 508
+*Edges :37 "= 34 ???"
+104 256
+139 276
+*Edges :40 "Rector Magnificus/dean"
+  2 282
+*Edges :43 "Minister van Staat/Minister of State"
+  4 309
+ 11 309
+177 309
+187 309
+*Edges :44 "Commissaris van de Koningin/Royal Commissioner"
+ 39 470
+145 468
+168 469
+*Edges :45 "Burgemeester/mayor"
+135 411
+188 409
+189 410
+*Edges :49 "Adviseur/advisor"
+  4 459
+*Edges :53 "Beschermer/guardian"
+101 471
+*Edges :55 "Secretaris Generaal/permanent secretary"
+144 348
+
+*Partition 2-Mode partition of Top200 network
+*Vertices 595
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+
+*Partition Top200 Organisation
+*Vertices 595
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+2
+2
+3
+4
+4
+5
+6
+7
+8
+8
+9
+10
+11
+12
+12
+14
+15
+18
+18
+18
+19
+20
+21
+21
+22
+22
+23
+23
+25
+26
+27
+27
+27
+28
+28
+29
+29
+30
+30
+30
+31
+31
+32
+33
+34
+155
+36
+36
+37
+38
+39
+40
+40
+41
+41
+44
+44
+45
+45
+46
+47
+47
+48
+49
+50
+50
+51
+52
+53
+53
+54
+56
+56
+56
+57
+60
+61
+62
+62
+63
+63
+64
+64
+65
+65
+66
+66
+66
+67
+67
+68
+69
+70
+71
+71
+72
+156
+74
+76
+77
+77
+78
+78
+79
+80
+80
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+94
+94
+95
+98
+100
+101
+101
+105
+105
+106
+111
+112
+115
+116
+119
+156
+125
+129
+130
+131
+132
+133
+143
+144
+145
+146
+147
+150
+151
+155
+160
+161
+162
+163
+164
+165
+165
+166
+168
+168
+169
+170
+171
+172
+172
+156
+175
+176
+176
+177
+178
+179
+179
+384
+183
+185
+186
+187
+188
+189
+190
+190
+191
+192
+193
+194
+196
+157
+199
+205
+207
+208
+211
+213
+384
+154
+155
+96
+158
+221
+157
+231
+96
+158
+155
+155
+96
+254
+257
+13
+260
+263
+265
+284
+285
+288
+291
+292
+292
+293
+293
+294
+13
+296
+298
+301
+305
+307
+307
+309
+310
+310
+313
+314
+315
+315
+316
+316
+316
+319
+320
+321
+322
+153
+385
+159
+159
+331
+332
+334
+335
+336
+336
+337
+340
+341
+343
+344
+345
+100
+347
+348
+156
+158
+357
+357
+361
+7
+7
+367
+369
+371
+378
+379
+380
+381
+381
+382
+100
+387
+388
+391
+396
+157
+402
+402
+404
+406
+409
+410
+411
+347
+413
+415
+417
+417
+420
+421
+427
+429
+432
+433
+433
+438
+439
+440
+441
+155
+443
+443
+444
+446
+447
+450
+452
+454
+455
+456
+457
+461
+468
+470
+471
+476
+484
+488
+489
+493
+494
+495
+498
+498
+502
+84
+84
+84
+84
+84
+84
+100
+100
+96
+96
+96
+96
+96
+96
+156
+156
+156
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+154
+386
+386
+155
+155
+155
+100
+100
+643
+158
+158
+158
+158
+658
+659
+157
+666
+157
+157
+157
+153
+153
+153
+683
+157
+687
+687
+689
+689
+
+*Partition Top200 MotherOrganisation
+*Vertices 595
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+56
+2
+2
+2
+3
+4
+4
+5
+6
+8
+8
+8
+9
+10
+11
+12
+12
+14
+15
+18
+18
+18
+19
+20
+21
+21
+22
+22
+45
+45
+25
+156
+27
+27
+27
+28
+28
+29
+29
+30
+30
+30
+31
+31
+32
+33
+34
+155
+36
+36
+37
+38
+39
+40
+40
+41
+41
+44
+44
+45
+45
+157
+84
+84
+48
+49
+50
+50
+51
+52
+53
+53
+54
+56
+56
+56
+57
+60
+61
+62
+62
+63
+63
+64
+64
+65
+65
+100
+100
+100
+67
+67
+68
+69
+70
+71
+71
+72
+156
+74
+76
+77
+77
+78
+78
+79
+80
+80
+85
+100
+87
+88
+89
+90
+91
+92
+94
+94
+94
+94
+95
+100
+100
+101
+101
+105
+105
+106
+111
+112
+115
+116
+119
+156
+156
+129
+130
+131
+132
+133
+143
+144
+145
+84
+143
+84
+84
+155
+160
+56
+162
+163
+164
+165
+165
+166
+168
+168
+169
+170
+171
+172
+172
+156
+175
+176
+176
+177
+178
+179
+179
+384
+183
+185
+157
+187
+188
+189
+190
+190
+191
+192
+193
+194
+196
+157
+199
+205
+156
+208
+211
+213
+384
+154
+155
+96
+158
+221
+157
+96
+96
+158
+155
+155
+96
+254
+257
+13
+260
+263
+265
+283
+282
+286
+291
+292
+292
+293
+293
+155
+13
+296
+298
+301
+305
+307
+307
+159
+310
+310
+313
+314
+315
+315
+316
+316
+316
+319
+156
+156
+322
+153
+385
+159
+159
+158
+157
+334
+335
+336
+336
+337
+156
+341
+343
+2
+41
+100
+347
+347
+156
+158
+357
+357
+157
+8
+8
+367
+369
+371
+378
+379
+380
+381
+381
+382
+100
+387
+388
+8
+396
+157
+402
+402
+404
+406
+409
+410
+411
+347
+413
+415
+417
+417
+420
+421
+427
+429
+44
+433
+433
+438
+439
+440
+441
+155
+443
+443
+444
+446
+447
+450
+452
+454
+455
+456
+457
+461
+468
+470
+471
+476
+484
+488
+489
+493
+494
+495
+498
+498
+502
+84
+84
+84
+84
+84
+84
+100
+100
+96
+96
+96
+96
+96
+96
+156
+156
+156
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+385
+154
+386
+386
+155
+155
+155
+100
+100
+643
+158
+158
+158
+158
+658
+659
+157
+157
+157
+157
+157
+153
+153
+153
+684
+157
+105
+105
+689
+689
+
+*Partition Top200 Domain
+*Vertices 595
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+8
+5
+5
+5
+4
+4
+4
+12
+4
+9
+9
+9
+9
+4
+4
+5
+5
+5
+5
+4
+4
+4
+8
+4
+4
+4
+9
+9
+8
+8
+9
+9
+9
+9
+9
+9
+9
+9
+9
+8
+8
+8
+12
+12
+18
+5
+9
+4
+4
+4
+9
+10
+18
+9
+9
+9
+9
+8
+8
+8
+8
+12
+10
+10
+4
+9
+9
+9
+4
+8
+8
+8
+4
+10
+10
+10
+18
+8
+4
+5
+5
+8
+8
+8
+8
+4
+4
+5
+5
+5
+8
+8
+4
+4
+4
+4
+4
+11
+8
+4
+10
+8
+8
+5
+5
+8
+4
+4
+1
+5
+4
+4
+8
+4
+4
+11
+5
+5
+5
+5
+18
+5
+5
+7
+7
+11
+11
+4
+12
+4
+13
+5
+18
+8
+9
+9
+9
+9
+1
+9
+10
+10
+10
+10
+10
+10
+10
+4
+10
+10
+10
+14
+10
+10
+10
+12
+12
+12
+5
+11
+5
+15
+15
+8
+8
+8
+8
+9
+8
+8
+8
+1
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+4
+12
+8
+8
+2
+12
+1
+2
+4
+6
+11
+18
+12
+6
+6
+11
+4
+4
+6
+4
+6
+1
+15
+15
+15
+1
+1
+1
+6
+11
+11
+11
+11
+4
+1
+4
+13
+18
+18
+18
+18
+14
+15
+15
+11
+4
+11
+11
+1
+1
+1
+15
+8
+8
+2
+7
+15
+14
+14
+11
+12
+4
+4
+6
+6
+2
+8
+6
+9
+5
+9
+5
+2
+2
+8
+11
+8
+8
+12
+9
+9
+15
+15
+15
+12
+9
+13
+4
+4
+4
+5
+9
+4
+9
+12
+12
+1
+1
+4
+4
+12
+9
+4
+2
+12
+4
+11
+11
+6
+6
+8
+8
+8
+12
+12
+4
+2
+2
+4
+4
+9
+9
+12
+5
+5
+4
+11
+5
+5
+4
+2
+18
+2
+12
+6
+2
+2
+7
+7
+12
+2
+2
+13
+13
+1
+10
+10
+10
+10
+10
+10
+5
+5
+6
+6
+6
+6
+6
+6
+8
+8
+8
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+2
+3
+3
+4
+4
+4
+5
+5
+5
+11
+11
+11
+11
+4
+8
+12
+12
+12
+12
+12
+7
+7
+7
+18
+12
+11
+11
+7
+7
+
+*Partition Top200 Task
+*Vertices 595
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+1
+2
+6
+6
+2
+6
+2
+6
+2
+2
+6
+2
+5
+2
+2
+6
+6
+6
+2
+2
+6
+2
+2
+2
+6
+2
+6
+2
+2
+6
+2
+2
+3
+6
+2
+6
+2
+3
+1
+6
+6
+6
+6
+6
+2
+2
+2
+2
+6
+6
+6
+6
+1
+2
+3
+6
+2
+6
+2
+6
+2
+1
+1
+6
+6
+2
+6
+6
+6
+2
+6
+6
+6
+2
+3
+6
+6
+6
+2
+6
+2
+6
+2
+6
+2
+6
+6
+2
+6
+2
+6
+6
+2
+6
+2
+6
+6
+1
+6
+2
+1
+6
+2
+6
+6
+2
+6
+1
+2
+6
+6
+6
+6
+6
+2
+6
+1
+2
+6
+2
+6
+1
+2
+6
+6
+2
+6
+6
+6
+6
+6
+6
+1
+2
+6
+6
+6
+5
+2
+2
+2
+2
+1
+2
+1
+1
+3
+2
+2
+2
+2
+2
+2
+2
+2
+2
+6
+2
+2
+6
+2
+6
+1
+2
+2
+2
+2
+6
+2
+6
+1
+2
+2
+2
+2
+2
+6
+2
+6
+6
+6
+6
+6
+6
+1
+4
+6
+6
+6
+2
+6
+1
+1
+1
+1
+1
+2
+1
+1
+1
+1
+1
+1
+6
+6
+2
+7
+2
+2
+2
+2
+2
+6
+8
+2
+6
+2
+6
+1
+1
+6
+2
+2
+2
+1
+2
+6
+2
+2
+6
+6
+2
+6
+1
+2
+6
+2
+6
+2
+6
+1
+1
+2
+6
+2
+2
+1
+2
+1
+2
+2
+1
+8
+2
+6
+2
+1
+4
+1
+1
+1
+4
+6
+2
+5
+5
+2
+2
+2
+2
+2
+5
+1
+6
+6
+1
+6
+6
+2
+2
+1
+6
+2
+6
+6
+6
+6
+6
+1
+6
+2
+2
+6
+2
+2
+6
+6
+2
+6
+6
+6
+1
+6
+2
+1
+2
+3
+2
+6
+1
+2
+2
+6
+6
+2
+1
+6
+6
+2
+2
+2
+6
+2
+6
+2
+6
+2
+6
+6
+2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+1
+1
+1
+1
+2
+2
+6
+6
+6
+1
+1
+1
+1
+1
+6
+1
+2
+6
+1
+6
+
+*Partition Top200 Sex
+*Vertices 595
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+1
+2
+2
+1
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+1
+2
+1
+2
+1
+2
+2
+2
+1
+2
+2
+2
+2
+1
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+1
+2
+2
+2
+2
+2
+1
+2
+1
+2
+2
+2
+1
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+1
+2
+1
+2
+1
+2
+2
+2
+2
+1
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+*Partition Top200 YearOfBirth
+*Vertices 595
+1937
+1949
+1936
+1938
+1940
+1941
+1950
+1942
+1954
+1966
+1950
+1937
+1957
+1941
+1944
+1951
+1971
+1949
+1943
+1946
+1969
+1936
+1950
+1943
+1954
+1951
+1933
+1953
+1944
+1944
+1958
+1952
+1955
+1948
+1942
+1947
+1946
+1968
+1947
+1947
+1959
+1942
+1949
+1960
+1948
+1948
+1942
+1951
+1960
+1950
+1944
+1948
+1942
+1939
+1944
+1948
+1947
+1937
+1949
+1938
+1958
+1964
+1950
+1961
+1951
+1943
+1939
+1946
+1951
+1962
+1958
+1942
+1940
+1948
+1959
+1968
+1941
+1949
+1964
+1938
+1949
+1963
+1941
+1962
+1950
+1944
+1949
+1945
+1936
+1934
+1949
+1941
+1951
+1945
+1955
+1938
+1960
+1964
+1947
+1947
+1942
+1943
+1933
+1944
+1942
+1961
+1958
+1958
+1948
+1945
+1960
+1941
+1950
+1949
+1951
+1935
+1947
+1955
+1946
+1946
+1934
+1952
+1940
+1941
+1949
+1945
+1945
+1946
+1945
+1952
+1940
+1941
+1941
+1966
+1945
+1951
+1953
+1954
+1950
+1941
+1943
+1946
+1947
+1946
+1947
+1944
+1939
+1948
+1947
+1949
+1946
+1957
+1947
+1948
+1943
+1944
+1945
+1940
+1944
+1955
+1948
+1936
+1946
+1942
+1971
+1961
+1950
+1934
+1942
+1946
+1940
+1936
+1944
+1967
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+9999998
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+*Partition Top200 Ranking
+*Vertices 595
+59
+52
+3
+33
+71
+31
+180
+61
+111
+145
+127
+60
+29
+179
+121
+174
+30
+124
+84
+34
+89
+42
+9
+44
+47
+79
+25
+85
+37
+99
+122
+109
+101
+2
+39
+125
+15
+8
+152
+55
+177
+10
+32
+196
+4
+78
+40
+46
+72
+172
+76
+51
+24
+58
+191
+134
+107
+200
+56
+38
+26
+186
+189
+140
+158
+93
+45
+192
+53
+13
+92
+198
+120
+138
+100
+35
+64
+141
+43
+176
+190
+166
+156
+139
+97
+21
+175
+137
+188
+67
+160
+161
+57
+16
+19
+163
+75
+48
+128
+117
+41
+82
+91
+66
+148
+12
+155
+68
+182
+162
+132
+1
+144
+74
+130
+167
+173
+105
+14
+81
+86
+5
+87
+88
+69
+80
+50
+62
+147
+70
+65
+28
+36
+27
+197
+104
+157
+118
+77
+123
+49
+63
+164
+142
+20
+178
+112
+165
+114
+146
+184
+149
+126
+154
+185
+119
+106
+90
+135
+168
+151
+136
+95
+131
+98
+17
+113
+129
+153
+94
+96
+159
+143
+73
+183
+22
+150
+199
+193
+181
+187
+194
+116
+195
+169
+115
+6
+133
+108
+11
+171
+103
+7
+102
+18
+23
+54
+170
+110
+83
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
