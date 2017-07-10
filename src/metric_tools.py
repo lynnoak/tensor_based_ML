@@ -59,5 +59,5 @@ def ComputeKNNScoreLF(X,Y,K,M,dim,metric=metricLF):
     #cross validation
     score_my = cross_validation.cross_val_score(myKNN,X,Y,cv=5)
     print(score_my)
-    print("Network based Accuracy : %0.4f (+/- %0.4f)" % (score_my.mean(), score_my.std()))  
+    print("Relational Tensor based Accuracy : %0.4f (+/- %0.4f)" % (score_my.mean(), score_my.std()))  
     return score_my.mean(),score_my.std()

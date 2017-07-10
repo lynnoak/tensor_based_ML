@@ -104,5 +104,68 @@ def data_elite():
     T = triples_to_tensor(nx,t)
     return X,Y,T
     
+"""
+Return :
+the vector of feature of data X
+the vector of label of data Y
+the relation tensor T
+"""
+def data_UW_std():
+    file1=localrep+"UW_std_data.txt"
+    XY = np.genfromtxt(file1,delimiter=",")
+    X=XY[:,1:4]
+    X = preprocessing.scale(X)
+    m = preprocessing.MinMaxScaler()
+    X = m.fit_transform(X)  		 
+    Y=XY[:,0]
+    file2=localrep+"UW_std_relation.txt"
+    t = np.genfromtxt(file2,delimiter=",",dtype = str)
+    
+    nx = len(Y)
+    T = triples_to_tensor(nx,t)
+    return X,Y,T
+    
+"""
+Return :
+the vector of feature of data X
+the vector of label of data Y
+the relation tensor T
+"""
+def data_Mutagenesis_std():
+    file1=localrep+"Mutagenesis_std_data.txt"
+    XY = np.genfromtxt(file1,delimiter=",")
+    X=XY[:,1:3]
+    X = preprocessing.scale(X)
+    m = preprocessing.MinMaxScaler()
+    X = m.fit_transform(X)  		 
+    Y=XY[:,0]
+    file2=localrep+"Mutagenesis_std_relation.txt"
+    t = np.genfromtxt(file2,delimiter=",",dtype = str)
+    
+    nx = len(Y)
+    T = triples_to_tensor(nx,t)
+    return X,Y,T
+    
+"""
+Return :
+the vector of feature of data X
+the vector of label of data Y
+the relation tensor T
+"""
+def data_Mondial_std():
+    file1=localrep+"Mondial_std_data.txt"
+    XY = np.genfromtxt(file1,delimiter=",")
+    X=XY[:,1:5]
+    X = preprocessing.scale(X)
+    m = preprocessing.MinMaxScaler()
+    X = m.fit_transform(X)  		 
+    Y=XY[:,0]
+    file2=localrep+"Mondial_std_relation.txt"
+    t = np.genfromtxt(file2,delimiter=",",dtype = str)
+    
+    nx = len(Y)
+    T = triples_to_tensor(nx,t)
+    return X,Y,T
+    
 
     
