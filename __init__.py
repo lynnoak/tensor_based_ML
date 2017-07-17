@@ -156,7 +156,7 @@ def TB_ML(X,Y,T):
     lamd = 0.5
     maxNumIts = 100 
     consNum = 200
-    relconsNum = int(consNum)+1
+    relconsNum = int(consNum/nr)+1
 
     X = np.matrix(X)
 
@@ -220,8 +220,8 @@ def TB_S_ML(X,Y,T,p=0.6):
     lamd = 0.5
     maxNumIts = 100 
     consNum = 200
-    relconsNum = int(consNum*p)+1
-    labconsNum = int(consNum*(1-p))+1
+    relconsNum = int(consNum*p/nr)+1
+    labconsNum = int(consNum*(1-p)/nr)+1
     print(relconsNum,labconsNum)
     
     X = np.matrix(X)
