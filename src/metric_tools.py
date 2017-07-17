@@ -39,7 +39,8 @@ def metricLF(X1,X2,**kwargs):
     Kjj = X2 * XjM
     Kij = X2 * XiM
     Kji = Kij
-    return Kii + Kjj - Kij - Kji
+    r = Kii + Kjj - Kij - Kji
+    return r[0,0]
 
     
 def ComputeKNNScoreLF(X,Y,K,M,dim,metric=metricLF): 
