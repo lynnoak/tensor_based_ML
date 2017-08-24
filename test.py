@@ -53,7 +53,7 @@ def Fea_ML(X,Y):
         S_LSML = [0,0]
 
     try:
-        nca = NCA(max_iter=100, learning_rate=0.01)
+        nca = NCA(max_iter=1000, learning_rate=0.01)
         nca.fit(X,Y)
         XN = nca.transform(X)
         S_NCA = ComputeKNNScore(XN,Y,K,2,title = "NCA")
@@ -108,7 +108,7 @@ def Res_ML(X,Y,T):
         S_LSML = [0,0]
 
     try:
-        nca = NCA(max_iter=100, learning_rate=0.01)
+        nca = NCA(max_iter=1000, learning_rate=0.01)
         nca.fit(X,Y)
         XN = nca.transform(X)
         S_NCA = ComputeKNNScore(XN,Y,K,2,title = "NCA")
@@ -161,7 +161,7 @@ def RF_ML(X,Y,T):
         S_LSML = [0,0]
 
     try:
-        nca = NCA(max_iter=100, learning_rate=0.01)
+        nca = NCA(max_iter=1000, learning_rate=0.01)
         nca.fit(X,Y)
         XN = nca.transform(X)
         S_NCA = ComputeKNNScore(XN,Y,K,2,title = "NCA")
@@ -338,44 +338,112 @@ test
 
 """    
 
-X,Y,T = data_movie()
-S_Fea_ML = Fea_ML(X,Y)
-S_Res_ML = Res_ML(X,Y,T)
-S_RF_ML = RF_ML(X,Y,T)
-S_TB = TB_ML(X,Y,T)
-S_TB_S = []
-for p in [0,0.2,0.4,0.6,0.8]:
-    S_TB_S.append(TB_S_ML(X,Y,T,p))
-print("\nWith Features: "+" %0.4f &"*len(S_Fea_ML) % tuple(S_Fea_ML))
-print("\nReasal latent space : "+" %0.4f &"*len(S_Res_ML) % tuple(S_Res_ML))
-print("\nReasal latent space with Features: "+" %0.4f &"*len(S_RF_ML) % tuple(S_RF_ML))
-print("\nTensor base: %0.4f  "%(S_TB))
-for i in S_TB_S:
-    print("\nTensor base with labels: %0.4f  "%(i))
+#X,Y,T = data_movie()
+#S_Fea_ML = Fea_ML(X,Y)
+#S_Res_ML = Res_ML(X,Y,T)
+#S_RF_ML = RF_ML(X,Y,T)
+#S_TB = TB_ML(X,Y,T)
+#S_TB_S = []
+#for p in [0,0.2,0.4,0.6,0.8]:
+#    S_TB_S.append(TB_S_ML(X,Y,T,p))
+#print("\nWith Features: "+" %0.4f &"*len(S_Fea_ML) % tuple(S_Fea_ML))
+#print("\nReasal latent space : "+" %0.4f &"*len(S_Res_ML) % tuple(S_Res_ML))
+#print("\nReasal latent space with Features: "+" %0.4f &"*len(S_RF_ML) % tuple(S_RF_ML))
+#print("\nTensor base: %0.4f  "%(S_TB))
+#for i in S_TB_S:
+#    print("\nTensor base with labels: %0.4f  "%(i))
 
-#def My_output(filename = 'output.txt'):
-#    
-#    datalist = [data_elite(),data_UW_std(),data_Mutagenesis_std(),data_Mondial_std()]
-#    datanames = ["elite","UW","Mutagenesis","Mondial"]#
-#
+def My_output(filename = 'output.txt'):
+    
+    datalist = [data_elite(),data_UW_std(),data_Mutagenesis_std(),data_Mondial_std()]
+    datanames = ["elite","UW","Mutagenesis","Mondial"]
 
-#    for i in range(len(datalist)):
-#        X,Y,T = datalist[i]
-#        S_Fea_ML = Fea_ML(X,Y)
-#        S_Res_ML = Res_ML(X,Y,T)
-#        S_RF_ML = RF_ML(X,Y,T)
-#        #S_TB = TB_ML(X,Y,T)
-#        #S_TB_S = []
-#        #for p in [0,0.2,0.4,0.6,0.8]:
-#        #    S_TB_S.append(TB_S_ML(X,Y,T,p))
-#        f = open(filename, 'a')
-#        f.write("\n"+datanames[i])
-#        f.write("\nWith Features: "+" %0.4f &"*len(S_Fea_ML) % tuple(S_Fea_ML))
-#        f.write("\nReasal latent space : "+" %0.4f &"*len(S_Res_ML) % tuple(S_Res_ML))
-#        f.write("\nReasal latent space with Features: "+" %0.4f &"*len(S_RF_ML) % tuple(S_RF_ML))
-#        #f.write("\nTensor base: %0.4f  "%(S_TB))
-#        #f.write("\n Tensor base with labels: "+" %0.4f &"*len(S_TB_S) % tuple(S_TB_S))
-#        f.close()
+
+    for i in range(len(datalist)):
+        X,Y,T = datalist[i]
+        S_Fea_ML = Fea_ML(X,Y)
+        S_Res_ML = Res_ML(X,Y,T)
+        S_RF_ML = RF_ML(X,Y,T)
+        #S_TB = TB_ML(X,Y,T)
+        #S_TB_S = []
+        #for p in [0,0.2,0.4,0.6,0.8]:
+        #    S_TB_S.append(TB_S_ML(X,Y,T,p))
+        f = open(filename, 'a')
+        f.write("\n"+datanames[i])
+        f.write("\nWith Features: "+" %0.4f &"*len(S_Fea_ML) % tuple(S_Fea_ML))
+        f.write("\nReasal latent space : "+" %0.4f &"*len(S_Res_ML) % tuple(S_Res_ML))
+        f.write("\nReasal latent space with Features: "+" %0.4f &"*len(S_RF_ML) % tuple(S_RF_ML))
+        #f.write("\nTensor base: %0.4f  "%(S_TB))
+        #f.write("\n Tensor base with labels: "+" %0.4f &"*len(S_TB_S) % tuple(S_TB_S))
+        f.close()
+
+
+def mytest(X,Y,T):
+
+    tx = X
+    K = 5
+
+    try:
+        nca = NCA(max_iter=1000, learning_rate=0.01)
+        nca.fit(X, Y)
+        XN = nca.transform(X)
+        Fea_NCA = ComputeKNNScore(XN, Y, K, 2, title="NCA")
+    except:
+        Fea_NCA = [0, 0]    
+
+    try:
+        rca = RCA_Supervised(num_chunks=30, chunk_size=2)
+        rca.fit(X, Y)
+        XR = rca.transform(X)
+        Fea_RCA = ComputeKNNScore(XR, Y, K, 2, title="RCA")
+    except:
+        Fea_RCA = [0, 0]
+
+    rank  = 10
+    A, R, fval, iter, exectimes = rescal(T, rank)
+    X = A
+    Y = Y
+    K = 5
+
+    try:
+        nca = NCA(max_iter=1000, learning_rate=0.01)
+        nca.fit(X, Y)
+        XN = nca.transform(X)
+        Res_NCA = ComputeKNNScore(XN, Y, K, 2, title="NCA")
+    except:
+        Res_NCA = [0, 0]    
+
+    try:
+        rca = RCA_Supervised(num_chunks=30, chunk_size=2)
+        rca.fit(X, Y)
+        XR = rca.transform(X)
+        Res_RCA = ComputeKNNScore(XR, Y, K, 2, title="RCA")
+    except:
+        Res_RCA = [0, 0]
+
+    X = np.column_stack((tx,A))
+ 
+
+    try:
+        nca = NCA(max_iter=1000, learning_rate=0.01)
+        nca.fit(X, Y)
+        XN = nca.transform(X)
+        RF_NCA = ComputeKNNScore(XN, Y, K, 2, title="NCA")
+    except:
+        RF_NCA = [0, 0]    
+
+    try:
+        rca = RCA_Supervised(num_chunks=30, chunk_size=2)
+        rca.fit(X, Y)
+        XR = rca.transform(X)
+        RF_RCA = ComputeKNNScore(XR, Y, K, 2, title="RCA")
+    except:
+        RF_RCA = [0, 0]
+
+    print(Fea_NCA[0],Fea_RCA[0],Res_NCA[0],Res_RCA[0],RF_NCA[0],RF_RCA[0])
+
+    return Fea_NCA,Fea_RCA,Res_NCA,Res_RCA,RF_NCA,RF_RCA
+
 
 
 

@@ -33,6 +33,8 @@ def metricLF(X1,X2,**kwargs):
     if (len(X1)!=kwargs["dim"]):
         return sum(abs(X1-X2))
     M = kwargs["M"]
+    X1 = np.matrix(X1)
+    X2 = np.matrix(X2)
     XiM = M * X1.T
     XjM = M * X2.T
     Kii = X1 * XiM
