@@ -24,7 +24,7 @@ def ComputeKNNScore(X,Y,K,pnorm,title = ""):
 
     KNN = KNeighborsClassifier(n_neighbors=K,p=pnorm)
     KNN.fit(X,Y)
-    score_KNN = cross_validation.cross_val_score(KNN,X,Y,cv=5)
+    score_KNN = model_selection.cross_val_score(KNN,X,Y,cv=5)
     print(score_KNN)
     print(title+" Accuracy : %0.4f (+/- %0.4f)" % (score_KNN.mean(), score_KNN.std()))  
     return score_KNN.mean(),score_KNN.std()
@@ -60,7 +60,7 @@ def ComputeKNNScoreLF(X,Y,K,M,dim,metric=metricLF):
                                  metric=metric,metric_params={"M":M,"dim":dim})
     myKNN.fit(X,Y)
     #cross validation
-    score_my = cross_validation.cross_val_score(myKNN,X,Y,cv=5)
+    score_my = model_selection.cross_val_score(myKNN,X,Y,cv=5)
     print(score_my)
     print("Relational Tensor based Accuracy : %0.4f (+/- %0.4f)" % (score_my.mean(), score_my.std()))  
     return score_my.mean(),score_my.std()

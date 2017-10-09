@@ -166,6 +166,30 @@ def data_Mondial_std():
     nx = len(Y)
     T = triples_to_tensor(nx,t)
     return X,Y,T
-    
+
+
+"""
+Return :
+the vector of feature of data X
+the vector of label of data Y
+the relation tensor T
+"""
+
+
+def data_attack_std():
+    file1 = localrep + "attack/attack_std_data.txt"
+    XY = np.genfromtxt(file1, delimiter=",")
+    X = XY[:, :-1]
+    X = preprocessing.scale(X)
+    m = preprocessing.MinMaxScaler()
+    X = m.fit_transform(X)
+    Y = XY[:, -1]
+    file2 = localrep + "attack/attack_std_relation.txt"
+    t = np.genfromtxt(file2, delimiter=",", dtype=str)
+
+    nx = len(Y)
+    T = triples_to_tensor(nx, t)
+    return X, Y, T
+
 
     

@@ -58,7 +58,8 @@ for line in fp:
         
         lpt.append(cl.get(lp[5][0:2],0))
         
-        data.append(lpt)
+        if(lpt):
+            data.append(lpt)
 
 td = np.zeros([len(X),6],dtype = int)
 for l in data:

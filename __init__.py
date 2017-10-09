@@ -19,7 +19,6 @@ from sktensor.rescal import als as rescal
 
 from src.mydataset import *
 from src.metric_tools import *
-from src.print_tools import *
 
 
 
@@ -73,12 +72,12 @@ def Fea_ML(X,Y):
 
 
 """       
-        Learning with the rescal
+  Learning with the rescal
 """
 
 def Res_ML(X,Y,T):
 
-    rank  = 10
+    rank  = min(450,int(0.25*len(X)))
 
     A, R, fval, iter, exectimes = rescal(T, rank)
 
@@ -131,8 +130,7 @@ Learning with the rescal and features
 """
 
 def RF_ML(X,Y,T):
-
-    rank  = 10
+    rank = min(450, int(0.25 * len(X)))
 
     A, R, fval, iter, exectimes = rescal(T, rank)
 
@@ -338,21 +336,21 @@ test
 
 """    
 
-X,Y,T = data_movie()
+X,Y,T = data_attack_std()
 S_Fea_ML = Fea_ML(X,Y)
 S_Res_ML = Res_ML(X,Y,T)
 S_RF_ML = RF_ML(X,Y,T)
 S_TB = TB_ML(X,Y,T)
-S_TB_S = []
-for p in [0,0.2,0.4,0.6,0.8]:
-    S_TB_S.append(TB_S_ML(X,Y,T,p))
-print("\nWith Features: "+" %0.4f &"*len(S_Fea_ML) % tuple(S_Fea_ML))
+#S_TB_S = []
+#for p in [0,0.2,0.4,0.6,0.8]:
+#    S_TB_S.append(TB_S_ML(X,Y,T,p))
+#print("\nWith Features: "+" %0.4f &"*len(S_Fea_ML) % tuple(S_Fea_ML))
 print("\nReasal latent space : "+" %0.4f &"*len(S_Res_ML) % tuple(S_Res_ML))
 print("\nReasal latent space with Features: "+" %0.4f &"*len(S_RF_ML) % tuple(S_RF_ML))
 print("\nTensor base: %0.4f  "%(S_TB))
-for i in S_TB_S:
-    print("\nTensor base with labels: %0.4f  "%(i))
-
+#for i in S_TB_S:
+#    print("\nTensor base with labels: %0.4f  "%(i))
+#
 #def My_output(filename = 'output.txt'):
 #    
 #    datalist = [data_elite(),data_UW_std(),data_Mutagenesis_std(),data_Mondial_std()]
