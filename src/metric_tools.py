@@ -8,11 +8,9 @@ metric computation
 import numpy as np
 from sklearn import *
 from sklearn.neighbors import *
-import timeit
-import cvxopt as cvx
-from itertools import *
 
-def ComputeKNNScore(X,Y,K,pnorm,title = ""):
+
+def ComputeKNNScore(X,Y,K,pnorm,scoring = ['accuracy'],title = ""):
     """
     compute the cross validation score of the KNN as Control
     Input: "X,Y" the dataset
@@ -22,12 +20,32 @@ def ComputeKNNScore(X,Y,K,pnorm,title = ""):
         
     """
 
-    KNN = KNeighborsClassifier(n_neighbors=K,p=pnorm)
-    KNN.fit(X,Y)
-    score_KNN = model_selection.cross_val_score(KNN,X,Y,cv=5)
-    print(score_KNN)
-    print(title+" Accuracy : %0.4f (+/- %0.4f)" % (score_KNN.mean(), score_KNN.std()))  
-    return score_KNN.mean(),score_KNN.std()
+    S = {}
+
+    ditscoring = {'precision':metrics.make_scorer(metrics.precision_score,average = 'weighted'),
+                  'recall': metrics.make_scorer(metrics.recall_score, average='weighted'),
+                  'f1': metrics.make_scorer(metrics.f1_score, average='weighted')}
+
+
+    if (scoring == 'test'):
+        scoring = ['accuracy','f1','precision','recall']
+
+    if not isinstance(scoring,list):
+        scoring = [scoring]
+
+    for s in scoring:
+        S_mea = []
+        for i in range(5):
+            KNN = KNeighborsClassifier(n_neighbors=K, p=pnorm)
+            KNN.fit(X, Y)
+            kf = model_selection.StratifiedKFold(n_splits=3, shuffle=True)
+            score_KNN = model_selection.cross_val_score(KNN, X, Y, cv=kf,
+                                                        scoring=ditscoring.get(s, 'accuracy'))
+            S_mea.append(score_KNN.mean())
+        S_mea = np.mean(S_mea)
+        print(title + " " + s + " : %0.4f " % (S_mea))
+        S[s] =  S_mea
+    return S
 
 def metricLF(X1,X2,**kwargs):
     if (len(X1)!=kwargs["dim"]):
@@ -45,7 +63,7 @@ def metricLF(X1,X2,**kwargs):
     return r[0,0]
 
     
-def ComputeKNNScoreLF(X,Y,K,M,dim,metric=metricLF): 
+def ComputeKNNScoreLF(X,Y,K,M,metric=metricLF,scoring = 'accuracy', title=""):
     """
     compute the cross validation score of the metric
     Input: "X,Y" the dataset
@@ -54,13 +72,32 @@ def ComputeKNNScoreLF(X,Y,K,M,dim,metric=metricLF):
     Output: the mean and std of score 
         
     """
-       
-    #KNN with the metric 
-    myKNN = KNeighborsClassifier(n_neighbors=K, 
-                                 metric=metric,metric_params={"M":M,"dim":dim})
-    myKNN.fit(X,Y)
-    #cross validation
-    score_my = model_selection.cross_val_score(myKNN,X,Y,cv=5)
-    print(score_my)
-    print("Relational Tensor based Accuracy : %0.4f (+/- %0.4f)" % (score_my.mean(), score_my.std()))  
-    return score_my.mean(),score_my.std()
+    S = {}
+    S_mea = []
+    dim = len(X[0])
+
+    ditscoring = {'precision':metrics.make_scorer(metrics.precision_score,average = 'weighted'),
+                  'recall': metrics.make_scorer(metrics.recall_score, average='weighted'),
+                  'f1': metrics.make_scorer(metrics.f1_score, average='weighted')}
+
+    if (scoring == 'test'):
+        scoring = ['accuracy','f1','precision','recall']
+
+    if not isinstance(scoring,list):
+         scoring = [scoring]
+
+    for s in scoring:
+         S_mea = []
+         for i in range(5):
+             myKNN = KNeighborsClassifier(n_neighbors=K,
+                                          metric=metric, metric_params={"M": M, "dim": dim})
+             myKNN.fit(X, Y)
+             kf = model_selection.StratifiedKFold(n_splits=3, shuffle=True)
+             score_KNN = model_selection.cross_val_score(myKNN, X, Y, cv=kf,
+                                                         scoring=ditscoring.get(s, 'accuracy'))
+             S_mea.append(score_KNN.mean())
+         S_mea = np.mean(S_mea)
+         print(title + " " + s + " : %0.4f " % (S_mea))
+         S[s] =  S_mea
+
+    return S
